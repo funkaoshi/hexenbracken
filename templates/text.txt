@@ -4,8 +4,8 @@
 ## {{ location }}
 {% for description in hex.descriptions %}
 {{ description }}
-{% if not loop.last %}
---
+{% if not loop.last -%}
+
 {% endif -%}
 {% endfor -%}
 {% endfor -%}
