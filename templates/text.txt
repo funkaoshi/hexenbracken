@@ -1,0 +1,11 @@
+# The Hexenbrack
+
+{% for location, hex in hexes %}
+## {{ location }}
+{% for description in hex.descriptions %}
+{{ description }}
+{% if not loop.last %}
+--
+{% endif -%}
+{% endfor -%}
+{% endfor -%}
