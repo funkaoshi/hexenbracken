@@ -6,30 +6,115 @@
 
         <title>{% block title %}The Hexenbracken{% endblock %}</title>
 
-        <link rel="stylesheet" type="text/css" href="http://carcosa.totalpartykill.ca/static/bootstrap.css"/>
-        <link rel="stylesheet" type="text/css" href="http://carcosa.totalpartykill.ca/static/carcosa.css"/>
         <style type="text/css" media="screen">
+
+        body {
+            background: url("http://carcosa.totalpartykill.ca/static/ricepaper2.png")
+        }
+
         #container {
+            width: 680px;
+            margin: 0 auto 0 auto;
+            padding: 25px;
             font-family: 'Avenir', 'Helvetica', 'Arial';
-            width: 640px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        a {
+            color: #C65B53;
+            font-weight: bold;
+            text-decoration: none;
         }
         h1, h2, h3 {
             font-family: 'Futura', 'Helvetica', 'Arial';
+            color: #8B96C7;
+            text-align: center;
         }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 1em;
+        }
+        p, td {
+            text-align: justify;
+            text-justify: newspaper;
+            hyphens: auto;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            margin: 0;
+        }
+        p + p {
+            text-indent: 1em;
+        }
+        p:first-child {
+            text-indent: 0;
+        }
+
+        /* Hex Description */
+
         .hex {
             border-top: 2px solid #666;
+            margin:0; padding:2px;
+            margin-top:24px;
+            clear: both;
+            font-size: 16px;
+        }
+        .hex p {
+            text-indent: 0;
+        }
+        .hex p.location {
+            float: left;
+            width: 120px;
+            padding-top: 8px;
+            font-weight: bold;
+        }
+        .hex p.location {
+            font-size: 18px;
         }
         .hex p.description {
+            float: right;
+            padding: 6px 0;
             width: 510px;
         }
         .hex p.description + p.description {
             border-top: 2px solid #AAA;
         }
-        p {
+
+        .hex table {
+            float: right;
+            width: 400px;
+        }
+        .hex table th {
+            border-bottom: 2px solid black;
             text-align: left;
         }
-        a {
-            color: #C65B53;
+        th:first-child {
+            text-align: center;
+        }
+        .hex table th,
+        .hex table td {
+            padding: 2px 7px;
+        }
+
+        #hexmap {
+            border: 3px solid #666;
+            margin-left: -3px;
+        }
+
+        .clear {
+            clear:both;
+        }
+
+        .footer {
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            margin: 75px auto;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            line-height: 18px;
+            color: #999;
+        }
+        .footer a {
+            color: #999;
             font-weight: bold;
         }
         </style>

@@ -2,26 +2,15 @@ import argparse
 import csv
 import jinja2
 import re
+import string
 import sys
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--format', dest='fmt', default='html',
                     help="Format of output: html or text")
+parser.add_argument('CSV', help="The CSV file with the hex descriptions.")
 args = parser.parse_args(sys.argv[1:])
 
-def process(description):
-    # Try to normalize references to hexes. Damn it people.
-    description = re.sub(r"(\d\d) (\d\d)", r"\1\2", description)      # XX YY
-    description = re.sub(r"\[(\d\d\d\d)\]", r"Hex \1", description)   # [XXYY]
-    if args.fmt == 'html':
-        description = re.sub(r"(\d\d\d\d)", r"<a href='#\1'>\1</a>", description)
-    else:
-        # Generate Markdown link?
-        # description = re.sub(r"(\d\d\d\d)", r"[\1](#\1)", description)
-        pass 
-    # Who doesn't capitalize the first word in a sentance?
-    description = description.capitalize()
-    return description
 
 # UTF8 CSV Reader
 # from: http://stackoverflow.com/q/904041/2100287
@@ -31,21 +20,64 @@ def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
         yield [unicode(cell, 'utf-8') for cell in row]
 
 # Read CSV dump of Google Docs hex map descriptions.
-csvhexmap = unicode_csv_reader(open('hexmap.csv', 'rb'))
+csvhexmap = unicode_csv_reader(open(args.CSV, 'rb'))
+
 
 # Load hexes from CSV dump.
 hexes = {}
+settlements = {}
 for h in csvhexmap:
+    # X, Y, Extra, Hex Key, Terrain, Settlement(s), Extra, Author, Description
     location = h[3]
     if not location.isdigit():
         continue
-    description = process(h[6]) or '-'.encode('utf-8')
+    terrain = h[4]
+    settlement = h[5].upper()
+    author = h[7]
+    description = h[8] or '-'.encode('utf-8')
     if location in hexes:
         hexes[location]['descriptions'].append(description)
     else:
-        hexes[location] = {'terrain': h[4], 'descriptions': [description,]}
+        hexes[location] = {
+            'terrain': terrain,
+            'settlement': settlement,
+            'author': author,
+            'descriptions': [description,]
+        }
+    if settlement:
+        settlements[settlement] = location
+
+
+def settlementlink(m):
+    # Look up settlement in settlement map and create link if the settlement
+    # exists.
+    settlement = m.group(1).upper()
+    if settlement in settlements:
+        return "<a href='#{hex}' class='city-link'>{settlement}</a>".format(
+                settlement=settlement, hex=settlements[settlement])
+    return settlement
+
+def process(description):
+    # Fix some poor grammar / punctuation
+    description = description.strip()
+    if description[-1] not in string.punctuation:
+        description = description + '.'
+    if description[0].islower():
+        description = description.capitalize()
+    # Add links were appropriate
+    if args.fmt == 'html':
+        description = re.sub(r"\[\[(\d\d\d\d)\]\]",
+                             r"<a class='hex-link' href='#\1'>\1</a>",
+                             description)
+        description = re.sub(r"\[\[(.*?)\]\]", settlementlink, description)
+    else:
+        # Convert link short-hand to plain text.
+        description = re.sub(r"\[\[(.*?)\]\]", r"\1", description)
+    return description
 
 env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
+env.filters['process'] = process
+
 template = env.get_template('hexenbracken.html' if args.fmt == 'html' else 'text.txt')
 
 print template.render(hexes=sorted(hexes.items())).encode('utf-8')
