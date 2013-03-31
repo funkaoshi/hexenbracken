@@ -1,4 +1,5 @@
 import argparse
+import collections
 import csv
 import jinja2
 import re
@@ -24,28 +25,22 @@ csvhexmap = unicode_csv_reader(open(args.CSV, 'rb'))
 
 
 # Load hexes from CSV dump.
-hexes = {}
+hexes = collections.defaultdict(list)
 settlements = {}
 for h in csvhexmap:
     # X, Y, Extra, Hex Key, Terrain, Settlement(s), Extra, Author, Description
     location = h[3]
     if not location.isdigit():
         continue
-    terrain = h[4]
     settlement = h[5].upper()
-    author = h[7]
-    description = h[8] or '-'.encode('utf-8')
-    if location in hexes:
-        hexes[location]['descriptions'].append(description)
-    else:
-        hexes[location] = {
-            'terrain': terrain,
-            'settlement': settlement,
-            'author': author,
-            'descriptions': [description,]
-        }
     if settlement:
         settlements[settlement] = location
+    hexes[location].append({
+        'settlement': settlement,
+        'author': h[7],
+        'description': h[8] or '-'.encode('utf-8'),
+        'moreinfo': h[9]
+    })
 
 
 def settlementlink(m):

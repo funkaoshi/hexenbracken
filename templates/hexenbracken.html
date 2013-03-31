@@ -660,14 +660,19 @@
     <area shape="rect" coords="641,885,666,913" href="#2328" alt="2328">
 </map>
 
-{% for location, hex in hexes %}
+{% for location, descriptions in hexes %}
 <div class='hex' id="{{ location }}">
     <p class='location'>
       {{ location }}
     </p>
-    {% for description in hex.descriptions %}
+    {% for hex in descriptions %}
     <p class='description'>
-      {{ description|process }}
+      {{ hex.description|process }}
+      {% if hex.moreinfo %}
+          <span class="more-info">
+          [<a href="{{ hex.moreinfo }}">Read More</a>]
+          </span>
+      {% endif %}
     </p>
     {% endfor %}
 </div>
