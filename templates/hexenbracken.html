@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>The Hexenbracken</h1>
+<div class="write-up">
+    <p>
+        Zak Smith (from <a href="">D&D with Pornstars</a>) took a <a href="http://dndwithpornstars.blogspot.ca/2013/03/the-hexenbracken.html">hex map by Brendan from Untimately</a> and asked people on G+ to fill it up with descriptions. <a href="http://randomwizard.blogspot.com/">Random Wizard</a> took all the descriptions and put them up on Google Docs. I saved the Google Docs file as a CSV, and wrote a Python script to spit out everything in a slightly nicer format. This is the result.
+    </p>
+    <p>
+        Why is this better than a Google Doc? Well, for starters hexes mentioned in descriptions link to the appropriate hex. I have other ideas to try out when I have more time.
+    </p>
+</div>
+
+{% for location, hex in hexes %}
+<div class='hex' id="{{ location }}">
+    <p class='location'>
+      {{ location }}
+    </p>
+    {% for description in hex.descriptions %}
+    <p class='description'>
+      {{ description|safe }}
+    </p>
+    {% endfor %}
+</div>
+{% endfor %}
+
+{% endblock %}

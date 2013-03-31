@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=740, maximum-scale=1.0"/>
+
+        <title>{% block title %}Hexenbracken{% endblock %}</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Simonetta:400,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://carcosa.totalpartykill.ca/static/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="http://carcosa.totalpartykill.ca/static/carcosa.css"/>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-2675737-17']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+
+    <body>
+    <div id="container">
+        {% block content %}
+        {% endblock %}
+        <div class="clear"></div>
+        <div class="footer">
+            <p>
+            This site was created by <a href="http://funkaoshi.com/">Ramanan Sivaranjan</a>. The layout borrows heavily from the look and feel of the <a href="http://www.lotfp.com/store/index.php?route=product/product&amp;product_id=145"><em>Carcosa</em></a> hardback available from <a href="http://lotfp.com/">Lamentations of the Flame Princess</a>. Geoffery McKinney is currently publishing adventures under the name <a href="http://psychedelicfantasies.blogspot.ca/">Psychedelic Fantasies</a>, and they are also quite enjoyable. If you like this site, you might also enjoy my D&amp;D blog, <a href="http://save.vs.totalpartykill.ca/">Save vs. Total Party Kill</a>.
+            </p>
+        </div>
+    </div>
+    <!--
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/static/bootstrap-tooltip.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            return
+        });
+    </script>
+    -->
+    </body>
+</html>
