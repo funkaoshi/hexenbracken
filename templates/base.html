@@ -20,6 +20,12 @@
             font-size: 18px;
             line-height: 24px;
         }
+
+        #hexmap {
+            border: 3px solid #666;
+            margin-left: -3px;
+        }
+
         a {
             color: #C65B53;
             font-weight: bold;
@@ -33,6 +39,9 @@
         h1 {
             font-size: 32px;
             margin-bottom: 1em;
+        }
+        h2 {
+            font-size: 24px;
         }
         p, td {
             text-align: justify;
@@ -54,7 +63,6 @@
         .hex {
             border-top: 2px solid #666;
             margin:0; padding:2px;
-            margin-top:24px;
             clear: both;
             font-size: 16px;
         }
@@ -79,25 +87,22 @@
             border-top: 2px solid #AAA;
         }
 
-        .hex table {
+        .hex .more-info {
+            font-size: 0.8em;
             float: right;
-            width: 400px;
         }
-        .hex table th {
-            border-bottom: 2px solid black;
-            text-align: left;
-        }
-        th:first-child {
-            text-align: center;
-        }
-        .hex table th,
-        .hex table td {
-            padding: 2px 7px;
+        .hex .more-info a {
+            font-weight: normal;
         }
 
-        #hexmap {
-            border: 3px solid #666;
-            margin-left: -3px;
+        .hex .author {
+            display: none;
+            color: gray;
+            font-weight: bold;
+        }
+
+        .hex:hover .author {
+            display: inline;
         }
 
         .clear {

@@ -1,9 +1,9 @@
 # The Hexenbrack
 
-{% for location, hex in hexes %}
+{% for location, descriptions in hexes %}
 ## {{ location }}
-{% for description in hex.descriptions %}
-{{ description }}
+{% for hex in descriptions %}
+{{ hex.description|process }}{% if hex.moreinfo %} [More info: {{ hex.moreinfo }}]{% endif %}
 {% if not loop.last -%}
 
 {% endif -%}
