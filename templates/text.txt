@@ -1,5 +1,7 @@
 # The Hexenbrack
 
+For more information see: http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/
+
 {% for location, descriptions in hexes %}
 ## {{ location }}
 {% for hex in descriptions %}

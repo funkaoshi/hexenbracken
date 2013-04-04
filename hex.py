@@ -30,7 +30,8 @@ settlements = {}
 for h in csvhexmap:
     # X, Y, Extra, Hex Key, Terrain, Settlement(s), Extra, Author, Description
     location = h[3]
-    if not location.isdigit():
+    if not location.isdigit() or not h[4]:
+        # skip empty / junky hexes
         continue
     settlement = h[5].upper()
     if settlement:
@@ -42,6 +43,11 @@ for h in csvhexmap:
         'moreinfo': h[9]
     })
 
+# Yank out all the authors
+authors = set(d['author'] 
+              for l, details in hexes.iteritems() for d in details
+              if d['author'])
+authors = ', '.join(sorted(authors))
 
 def settlementlink(m):
     # Look up settlement in settlement map and create link if the settlement
@@ -75,4 +81,4 @@ env.filters['process'] = process
 
 template = env.get_template('hexenbracken.html' if args.fmt == 'html' else 'text.txt')
 
-print template.render(hexes=sorted(hexes.items())).encode('utf-8')
+print template.render(hexes=sorted(hexes.items()), authors=authors).encode('utf-8')
