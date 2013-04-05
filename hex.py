@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--format', dest='fmt', default='html',
                     help="Format of output: html or text")
 parser.add_argument('CSV', help="The CSV file with the hex descriptions.")
+parser.add_argument('Template', help="The template to use to generate webpage.")
 args = parser.parse_args(sys.argv[1:])
 
 
@@ -30,10 +31,11 @@ settlements = {}
 for h in csvhexmap:
     # X, Y, Extra, Hex Key, Terrain, Settlement(s), Extra, Author, Description
     location = h[3]
-    if not location.isdigit() or not h[4]:
+    location = h[3].strip('*')
+    if not location.isdigit() or not h[3]:
         # skip empty / junky hexes
         continue
-    settlement = h[5].upper()
+    settlement = h[5].upper().strip()
     if settlement:
         settlements[settlement] = location
     hexes[location].append({
@@ -44,19 +46,45 @@ for h in csvhexmap:
     })
 
 # Yank out all the authors
-authors = set(d['author'] 
+authors = set(d['author']
               for l, details in hexes.iteritems() for d in details
               if d['author'])
 authors = ', '.join(sorted(authors))
 
+# Yank out all references
+references = collections.defaultdict(list)
+for l, details in hexes.iteritems():
+    for d in details:
+        for m in re.finditer(r"\[\[(\d\d\d\d)\]\]", d['description']):
+            references[m.group(1)].append(l)
+
 def settlementlink(m):
     # Look up settlement in settlement map and create link if the settlement
     # exists.
-    settlement = m.group(1).upper()
+    settlement = m.group(1).upper().strip()
     if settlement in settlements:
         return "<a href='#{hex}' class='city-link'>{settlement}</a>".format(
                 settlement=settlement, hex=settlements[settlement])
     return settlement
+
+def hex2link(text):
+    # Add links were appropriate
+    if args.fmt == 'html':
+        text = re.sub(r"\[\[(\d\d\d\d)\]\]",
+                      r"<a class='hex-link' href='#\1'>\1</a>",
+                      text)
+        text = re.sub(r"\[\[(.*?)\]\]", settlementlink, text)
+    else:
+        # Convert link short-hand to plain text.
+        text = re.sub(r"\[\[(.*?)\]\]", r"\1", text)
+    return text
+
+def getreferences(h):
+    # return references for this hex.
+    if h in references:
+        return ', '.join("<a class='hex-link' href='#%s'>%s</a>" % (l, l)
+                         for l in sorted(references[h]))
+    return ''
 
 def process(description):
     # Fix some poor grammar / punctuation
@@ -65,20 +93,13 @@ def process(description):
         description = description + '.'
     if description[0].islower():
         description = description.capitalize()
-    # Add links were appropriate
-    if args.fmt == 'html':
-        description = re.sub(r"\[\[(\d\d\d\d)\]\]",
-                             r"<a class='hex-link' href='#\1'>\1</a>",
-                             description)
-        description = re.sub(r"\[\[(.*?)\]\]", settlementlink, description)
-    else:
-        # Convert link short-hand to plain text.
-        description = re.sub(r"\[\[(.*?)\]\]", r"\1", description)
+    description = hex2link(description)
     return description
 
 env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 env.filters['process'] = process
+env.filters['references'] = getreferences
 
-template = env.get_template('hexenbracken.html' if args.fmt == 'html' else 'text.txt')
+template = env.get_template(args.Template)
 
-print template.render(hexes=sorted(hexes.items()), authors=authors).encode('utf-8')
+print template.render(hexes=sorted(hexes.items()), authors=authors, references=references).encode('utf-8')

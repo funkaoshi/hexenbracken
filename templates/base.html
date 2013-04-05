@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=740, maximum-scale=1.0"/>
 
-        <title>{% block title %}The Hexenbracken{% endblock %}</title>
+        <title>{% block title %}Hexcrawl{% endblock %}</title>
 
         <style type="text/css" media="screen">
 
@@ -25,7 +25,7 @@
             border: 3px solid #666;
             margin-left: -3px;
         }
-        
+
         #about {
             clear:both;
             margin-top: 1.5em;
@@ -49,11 +49,7 @@
             font-size: 24px;
         }
         p, td {
-            text-align: justify;
-            text-justify: newspaper;
-            hyphens: auto;
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
+            text-align: left;
             margin: 0;
         }
         p + p {
@@ -74,19 +70,25 @@
         .hex p {
             text-indent: 0;
         }
-        .hex p.location {
+        .hex .location {
             float: left;
-            width: 120px;
+            width: 160px;
+        }
+        .hex .location p.location {
             padding-top: 8px;
             font-weight: bold;
-        }
-        .hex p.location {
             font-size: 18px;
+        }
+        .hex .location p.references,
+        .hex .location p.references a {
+            font-weight: normal;
+            font-size: 14px;
+            text-align: left;
         }
         .hex p.description {
             float: right;
             padding: 6px 0;
-            width: 510px;
+            width: 470px;
         }
         .hex p.description + p.description {
             border-top: 2px solid #AAA;
@@ -94,7 +96,6 @@
 
         .hex .more-info {
             font-size: 0.8em;
-            float: right;
         }
         .hex .more-info a {
             font-weight: normal;
@@ -127,6 +128,7 @@
             color: #999;
             font-weight: bold;
         }
+        {% block extracss %}{% endblock %}
         </style>
         <script type="text/javascript">
             var _gaq = _gaq || [];
@@ -142,7 +144,38 @@
 
     <body>
     <div id="container">
-        {% block content %}
+        {% block header %}
+        {% endblock %}
+
+        <h2>Hex Descriptions</h2>
+
+        {% for location, descriptions in hexes %}
+        <div class='hex' id="{{ location }}">
+            <div class='location'>
+                <p class='location'>
+                    {{ location }}
+                </p>
+                {% if location|references %}
+                <p class="references">
+                    See: {{ location|references }}
+                </p>
+                {% endif %}
+            </div>
+
+            {% for hex in descriptions %}
+            <p class='description'>
+                {{ hex.description|process }}
+                {% if hex.moreinfo %}
+                <span class="more-info"><a href="{{ hex.moreinfo }}">Read More</a></span>
+                {% endif %}
+            </p>
+            {% endfor %}
+
+        </div>
+        <div class="clear"></div>
+        {% endfor %}
+
+        {% block footer %}
         {% endblock %}
         <div class="clear"></div>
         <div class="footer">

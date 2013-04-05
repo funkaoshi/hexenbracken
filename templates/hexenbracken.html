@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 
-{% block content %}
+{% block title %}The Hexenbracken{% endblock %}
 
+{% block header %}
 <h1>The Hexenbracken</h1>
 
 <h2>Introduction</h2>
@@ -667,29 +668,9 @@
     <area shape="rect" coords="641,885,666,913" href="#2328" alt="2328">
 </map>
 
-<h2>Hex Descriptions</h2>
+{% endblock %}
 
-{% for location, descriptions in hexes %}
-<div class='hex' id="{{ location }}">
-    <p class='location'>
-        {{ location }}
-    </p>
-    {% for hex in descriptions %}
-    <p class='description'>
-        {{ hex.description|process }}
-        {% if hex.moreinfo %}
-        <span class="more-info"><a href="{{ hex.moreinfo }}">Read More</a></span>
-        {% endif %}
-        <!--
-        <span class="author">{{ hex.author }}</span>
-        -->
-    </p>
-    {% endfor %}
-</div>
-{% endfor %}
-
-<div class="clear"></div>
-
+{% block footer %}
 <div id="about" class="write-up">
     <h2>About this Project</h2>
     <p>
@@ -701,5 +682,4 @@
     <p>A big thanks to Random Wizard for cleaning up the source material that makes this all possible and for generating the image map. A big thank you to all the contributors: {{ authors }}.
     </p>
 </div>
-
 {% endblock %}
