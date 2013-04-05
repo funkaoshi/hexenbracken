@@ -1,4 +1,4 @@
-x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,More Info URL
+x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,more_info_url
 01,01,,0101,woodland,,,Zak Smith,Well. 3 crocodiles.,
 01,02,,0102,fin,MULK,,Zak Smith,MULK. Human settlement. Excellent glassblowers.,
 01,02,,0102,fin,,,Harald Wagener,Hidden harbor. Base of a luckless pirate captain.,
@@ -6,7 +6,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 01,04,,0104,sea,,,Brian Green,Burnt remains of a fishing village along the shore.  Sunken fishing boats in the shallows.,
 01,05,,0105,sea,,,Random Wizard,"A very old bard in a dinghy. Appears to be idly fishing but in reality, is attempting to find ways to capture a mermaid who taunts and jilts him.",
 01,06,,0106,sea,,,Zzarchov Kowolski,Abandoned stone watchtower.  Someone burned down the roof and there is a pack of 20 feral dogs with a taste for human meat.,
-01,07,,0107,sea,,,Jensan Thuresson,Unsinkable cursed buckets. Lots of.,
+01,07,,0107,sea,,,Jensan Thuresson,Unsinkable cursed buckets. Lots of.,http://acornafloat.blogspot.se/2013/04/hexenbrachen-hex-0107.html
 01,08,,0108,sea,,,Brendan Strejcek,Pirate patrols from the hilly island to the south that seek slaves (50% chance their ship is already loaded with precious cargo). 10% chance actually ghost pirates from a ship that was ran aground in a storm (there may be treasure in the real wreck as well).,
 01,09,,0109,hill,,,Harald Wagener,"The Cyclops´ armory. Believed to hold items of excellent craftmanship (true, but they're all giant sized)",
 01,10,,0110,sea,,,James Stuart,Wet Water is Wet. There are lots of fish here.,
@@ -17,7 +17,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 01,12,,0112,plain,SCREEYAL,,Zak Smith,[[SCREEYAL]] White Elf port. Rough.,
 01,13,,0113,hill,,,Jeff Rients,small pile of rocks near highest hilltop in the hex.  Hasty grave - underneath is the naked corpse of a halfling with tremendous sideburns.,
 01,14,,0114,hill,,,Stuart Marshall,Scree and loose rock.  4 large pterosaurs.,
-01,14,,0114,hill,UPSIDE,,Harald Wagener,"[[UPSIDE]]  Dwarven surface colony. sturdy buildings, little luxury.",
+01,14,,0114,hill,UPSIDE,,Harald Wagener,"[[UPSIDE]]  Dwarven surface colony. sturdy buildings, little luxury.",https://docs.google.com/document/d/1qP5N8zNu7l5PvZb_BzKgii3u7d7vU6cbbrCSPQiaP4k/edit#
 01,15,,0115,hill,,,John Bell,One of the hills has an iron door cut into its side. A corpse with stab wounds in its back lies face down towards the door.,
 01,15,,0115,hill,,,Nakia Pope,Ash and burnt vegetation from a huge wildfire.,
 01,16,,0116,hill,,,John Bell,Drunken hill giant who loves to gamble.,
@@ -39,17 +39,17 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 01,23,,0123,sea,,,Matt Maranda,excellent finish in the hex. Including one overly large shark with a suite of +1 chain in its belly.,
 01,24,,0124,sea,,,Casey Garske,The top of a giant statue's head protrudes from the water. At low tide it's eyes are revealed.,
 01,25,,0125,woodland,,,John Bell,No one can prove a tribe of degenerate elvish cannibals live here because no one ever comes out of the forest alive.,
-01,25,,0125,woodland,,,Harald Wagener,"Glade with portal to the Nymph's  Shadow Realm. Druids can find a pathway to hex [[2211]], traversable in a day (accompanied by Druid's level living beings).",
+01,25,,0125,woodland,,,Harald Wagener,"Glade with portal to the Nymph's  Shadow Realm. Druids can find a pathway to hex [[2211]], traversable in a day (accompanied by Druid's level living beings).",http://gist.io/5291901
 01,26,,0126,swamp,,,Olman Feelyus,Marsh lands. Very difficult terrain to cross. No potable water.,
 01,26,,0126,swamp,,,Wayne Snyder,Dank swamp land made passable by bridges of human bones. The air is thick with the stench of rotting flesh.,
 01,26,,0126,swamp,,,Zak Smith,Old squat Dwarven fortress. Wererats disguised as lost pilgrims inside. They have d20xd12 gp worth of stuff.,
-01,27,,0127,swamp,,,Casey Garske,The Mosquito Queen,
+01,27,,0127,swamp,,,Casey Garske,The Mosquito Queen,https://docs.google.com/document/d/1Vx4cpRiLJu-R-Hl5Kl5cPGiIh3QRoY4iLVIBPYcR5xQ/edit
 01,27,,0127,swamp,,,Wayne Snyder,Dank swamp land made passable by bridges of human bones. The air is thick with the stench of rotting flesh. A massive hollow earthen mound sits above the murky water and is home to a clutch of flesh eaters.,
 01,28,,0128,woodland,,,Zak Smith,"Quasit--ex-familiar of Mosquito Queen, created the hyper sophisticated lizardmen in [[0118]].",
 02,01,,0201,sea,,,John Carr,Kelpies,
 02,01,,0201,sea,,,Chris L Sheppard,"Nothing. Absolutely, stinking, frigging, nothing. Will drive players mad looking since they’ve found something of interest on every other hex on the map.",
 02,02,,0202,sea,,,Zak Smith,Hidden rocks--ships will probably founder. Pirates and scavengers from nearby ports know about this place,
-02,02,,0202,sea,,,Mike Evans,Swamp village if mutated half fish half human creatures. Led by blind mad prophet.,
+02,02,,0202,sea,,,Mike Evans,Swamp village if mutated half fish half human creatures. Led by blind mad prophet.,http://wp.me/puSkU-TE﻿
 02,02,,0202,sea,,,Gennifer Bone,"Sunken rowboat.  Here, a party of adventurers learned that armor doesn't float.",
 02,03,,0203,swamp,,,Chris L Sheppard,An orc in a  rowboat guarding a locked chest. Full of killer bees.,
 02,03,,0203,swamp,,,Mike Evans,Giant sits on a throne of living humans stitched together.,
@@ -64,7 +64,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 02,09,,0209,plain,VEKTH,,Zak Smith,"VEKTH Largish port city here--half of it is on solid ground, half is linked boats and fishing towers.",
 02,10,,0210,sea,,,Ian Burns,Undersea dome - rusting in places and of questionable constriction - hidden by a forest of purple and green kelp.,
 02,11,,0211,fin,,,Levi Kornelsen,"Docks, roads, inns - largely serving traffic to and from nearby [[VEKTH]] [[0209]].",
-02,12,,0212,fin,,,Ian Burns,"Mountain pass guarded by the Skull Baron, a insane giant, naked except for mammoth skull head stolen from the rat men in Hex [[0206]].",
+02,12,,0212,fin,,,Ian Burns,"Mountain pass guarded by the Skull Baron, a insane giant, naked except for mammoth skull head stolen from the rat men in Hex [[0206]].",http://reynaldogamingsoap.blogspot.com/2013/04/the-skull-baron-of-hexenbrachen.html
 02,13,,0213,fin,,,Chris L Sheppard,Twelve Lords a’ Leaping.   Twelve armored knights suffering from a permanent 'Otto’s Irresistible Dance'.,
 02,13,,0213,fin,,,Jason Sholtis,"Bone yards of the Skull Baron, loaded with heaped detritus from his rampages, discarded remnants of his victims, plenty of scavenger monsters",
 02,14,,0214,fin,,,Kerry Forester,natural hot springs,
@@ -142,7 +142,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 04,18,,0418,plain,,,Michael Currie,A decaying mausoleum half hidden by brambleberries is home to a small band of evil rapist Deodands. The Tombs inside contain D10x20gps worth of golden jewellery and a cursed tiara of resist pleasure.,
 04,19,,0419,sand,,,Ray Colina,"A skull-faced Amazon with a large hellhound wanders here, seeking the location of the dungeon in hex [[0406]]. The Amazon wears a tattered cloak made from thirteen demon faces sewn together. The faces whisper dark secrets and make prophecies of doom about random people, 10% chance one of the faces mentions someone the PC’s know.",
 04,20,,0420,mountain,,,Dave Booth,"Mountain fortress housing 28 pterodactyl riding bandits. They have imprisoned the former owner (a wind druid) and are forcing him to keep the 2d12 'dactyls docile. Fortress contains 3d100x100gp worth of goods, supplies and valuables stolen from nearby settlements.",
-04,20,,0420,mountain,,,Edgar Johnson,"Titanic arm made of black, very hard metal makes a lewd gesture toward what used to be a contended border. Chance of rock slides.",
+04,20,,0420,mountain,,,Edgar Johnson,"Titanic arm made of black, very hard metal makes a lewd gesture toward what used to be a contended border. Chance of rock slides.",http://revdoctoredj.blogspot.ca/2013/04/hexenbracken-hex-0420-black-metal-army.html
 04,21,,0421,mountain,,,Noah Marshall,"Ruined mountain pass fortress of Doram. Clay Golem soldiers continue to collect toll-fee in the now overflowing, trap-ridden vault.",
 04,22,,0422,fin,,,Wayne Snyder,A dusty road twists through this bleak rock scape. It passes along sheer cliffs and over a rusted iron bridge of bizarre craftsmanship. The road leads to the Fortress of Doram.,
 04,23,,0423,mountain,,,Dave Booth,Come see the famous Dungeon of Dread!,
@@ -330,7 +330,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 10,12,,1012,woodland,,,Humza Kazmi,"The orc tribe here are all Terminator-2 liquid-shimmery-metal (AC improved by 2, weapons out of hands). The trees in this forest are also all different types of metal, with a giant pool of mercury at the heart of the forest.",
 10,13,,1013,woodland,,,Wayne Snyder,"This forest grows thick with razor weed, poison humbert, stinging ghost leaf and strangle wort. Travel rates through this area are reduced by 75%.",
 10,14,,1014,plain,DIES ARKATT,,Zak Smith,DIES ARKATT (settlement) Two colossal statues (? or victims of the Dracolisk in [[1413]]) of ancient gods crashed together long ago here but remain essentially vertical. A largely vertical settlement has grown up on and around them.,
-10,14,,1014,plain,,,Courtney Campbell,"A geomancer sits by the side of the road, depressed over fighting with his wife. His wife is a naga paladin. There is a hobgoblin witch nearby that creates twig demons to disrupt their relationship.",
+10,14,,1014,plain,,,Courtney Campbell,"A geomancer sits by the side of the road, depressed over fighting with his wife. His wife is a naga paladin. There is a hobgoblin witch nearby that creates twig demons to disrupt their relationship.",http://hackslashmaster.blogspot.ca/2013/04/on-hexbraken.html
 10,15,,1015,plain,,,Thomas Fitzgerald,"Vriminynthe Gholthaniel: Elvish lancer, banished vassal of Baron Cytorrak [[0709]], rides a feathered tyrannosaur, seeks adventure.",
 10,16,,1016,woodland,,,Edgar Johnson,Glen of Howling Trees. This haunted wood shelters a variety of ghosts.,
 10,17,,1017,woodland,,,Joey Lindsey,"Crkt Bibin, a dense growth of trees home to a secret city of hundreds of murderous bandits. If a bag of 50 GP per traveller is left at the proper spot, the bandits will leave you alone. If you were well-liked in DIES ARKATT [[1014]], they will have told you of the ""Crkt Bibin Tax"".",
@@ -360,7 +360,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 11,09,,1109,woodland,,,Niles Calder,"On moonless nights a coven of witches celebrate their dark rites. Witnesses must save versus spells or be sucked into their merry making, becoming willing subjects to whatever they do which could be fun but naughty, but probably isn't. Those who pass their saves are pursued by dark forces (Phantasmal Killer each) for 1d6 hexes, or until dawn, which ever comes first. 13 Witches, MU level 2d6.",
 11,10,,1110,hill,,,Zak Smith,"Twisted treants dwell here, moaning in the north wind. They mutilate visitors and drop the pieces down a well full of white insects.",
 11,11,,1111,hill,,,Jürgen Mayer,"Burial mounds of the eleven kings, secured by powerful magic. The shaman in [[1009]] knows how to open them, but demands a big sacrifice for the information. The precious grave goods are protected by sophisticated traps.",
-11,11,,1111,hill,,,James Young,"A wolf, apparently ordinary. When damaged an entire other wolf jumps out of its mouth, and so on.",
+11,11,,1111,hill,,,James Young,"A wolf, apparently ordinary. When damaged an entire other wolf jumps out of its mouth, and so on.",http://tenfootpolemic.blogspot.com.au/2013/04/monster-packed-wolves.html
 11,12,,1112,hill,,,Reece Carter,"a large cave opening is here, it extends about 50m back and is about 10-15m tall. Its really nothing, just good protection against the elements",
 11,13,,1113,hill,,,Reece Carter,"goblin cavelry are here, they are riding on some form of mountain goat. The goblins count as 3rd level fighters, the mountain goats count as a war horse, 1D3 per party member will attack",
 11,14,,1114,hill,,,Trent B,"ancient tower on the hillside, overlooks the grasslands to the south. Table inside is a carved stone map of the mountains northwest.",
@@ -431,7 +431,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 13,18,,1318,woodland,,,Dan Cassar,A small river runs through the woods here.  A family of good-natured Giant Otters live in it.,
 13,19,,1319,woodland,,,Dan Cassar,An otherwise normal-looking tree in this forest bears deep purple apples each spring.  Eating an entire apple causes one to forget everything that has happened since the previous spring.,
 13,20,,1320,woodland,CLOVECRUSHED,,Trent B,"CLOVECRUSHED (Settlement) 6-7ft tall emaciated goatheaded humanoids live in a series of predominately subterranean dwellings and shrines to Akerbeltz [[1021]]. They trade with men and tend goats above the surface, with Shamen capable of  reading fortunes. Each night they dance, sacrifice and feast on goat flesh, though Halfling, Frogling or Corvid flesh are valuable to them.",
-13,21,,1321,fin,,,Joey Lindsey,"There 7 Penlaggans here with their gut strings accidentally tied together, floating out of weapons' reach. If one unties them and lets them leave, they will tell you: Leave a blood sacrifice in hexes [[1121]] [[1521]] [[1219]] [[1323]] and [[1419]], then [[1121]] again, then return here. A demon will be summoned and have to do your bidding for a day. (Obviously they're describing topographical features and not giving pcs hex numbers, but you get the idea.)",
+13,21,,1321,fin,,,Joey Lindsey,"There 7 Penlaggans here with their gut strings accidentally tied together, floating out of weapons' reach. If one unties them and lets them leave, they will tell you: Leave a blood sacrifice in hexes [[1121]] [[1521]] [[1219]] [[1323]] and [[1419]], then [[1121]] again, then return here. A demon will be summoned and have to do your bidding for a day. (Obviously they're describing topographical features and not giving pcs hex numbers, but you get the idea.)",http://metalvsskin.blogspot.com/2013/04/the-7-daughters-of-fury-hexenbrackens.html
 13,22,,1322,woodland,,,Trent B,"Forest. A single sinister but polite skeleton with a small, empty sack, a decent waterskin and a bundle of preserved mushy foods. Tirelessly roams the surface searching for children to steal away to the Lazy Witch in [[1004]].",
 13,23,,1323,woodland,,,Ray Colina,An old cleric of the Sun Peacock from the town of Axerist [[0820]] is lost in this forest. He is nearly blind from decades of staring into the sun.,
 13,24,,1324,woodland,,,Claytonian JP,"One being the PCs have encountered before in their travels seems to be here. It is, of course, an impostor, and has nefarious goals. The least of which would be to shave the PCs in their sleep.",
@@ -497,7 +497,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 15,23,,1523,woodland,,,Zak Smith,A long-armed hobgoblin whose touch causes madness lives in a tall hedge maze. Likely responsible for the wicker man in [[1423]].,
 15,24,,1524,woodland,,,Claytonian JP,"A small cabin in the woods. A variety of weapons are within, and one is actually magical, but anyone who spends the night will meet their doom when the undying man that once owned them comes back.",
 15,25,,1525,woodland,,,Niles Calder,A herd of 96 Wild Cattle roam this hex.,
-15,26,,1526,swamp,,,Reece Carter,"swamp goblins live here, they are a amalgamation of spiders and goblins (think centaur), they attack from webs that they have spun in an ambush like attack. Their web sack (where the web comes from) it is rumored to be worth a bit of money",
+15,26,,1526,swamp,,,Reece Carter,"swamp goblins live here, they are a amalgamation of spiders and goblins (think centaur), they attack from webs that they have spun in an ambush like attack. Their web sack (where the web comes from) it is rumored to be worth a bit of money",http://gamingithappens.blogspot.com.au/2013/04/the-hexenbracken.html
 15,27,,1527,swamp,,,Zak Smith,"This house-of-cards-like henge is actually an ancient sun calendar built in the earliest years of the earth by the Callow Men. The command words for various ancient locks and wards all over the map--from the black marble city to the dungeons to the ruins beneath the sea, can be discovered if one ""reads"" the moonlight filtering through the structure on the night corresponding numerically to the geomantic code of the ancients.",
 15,28,,1528,swamp,,,Niles Calder,"A Giant Leech can be found here. Although it can be encountered anywhere within the swamp, along with its offspring, it spends most of it's time (80%) within this hex.",
 16,01,,1601,sea,,,Niles Calder,"The half sunk wreck of a merchantman wallows in the sea here. Much of its cargo has spoiled due to being submerged but 2d4x1000 GP can be recovered by anyone prepared to brave the drowned hold and crew (7 undead crewmen, treat as Wights).",
@@ -573,7 +573,7 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 18,08,,1808,swamp,,,Zak Smith,"A blood trail leads down a ferret hole to a long, ancient vertical shaft library. Many books but even more snakes (some now eating the ferret). Properly read, the snakes can reveal the geomantic code to reading the ruins in [[1527]].",
 18,09,,1809,woodland,,,David Brawley,This boggy forest is home to a hobbled witch living in a cottage. The mushrooms growing around the cottage are psychedelic and talkative.,
 18,10,,1810,mountain,,,Ray Colina,"The Weird Black Plinths of Mount Yarling are said to provide confusing but prophetic dreams to those who dare to sleep amongst them. The Mount is rumored to be the lair of a vampire, but the more immediate danger comes from Witch-Hunters who watch the area, convinced that consulting the dream stones here is tantamount to trafficking with demons.",
-18,11,,1811,woodland,,,Mike Evans,Hut with lonely old man inside.  He bores you with stories from his life.  Make a save or fall asleep for 1d6 years from boredom.,
+18,11,,1811,woodland,,,Mike Evans,Hut with lonely old man inside.  He bores you with stories from his life.  Make a save or fall asleep for 1d6 years from boredom.,http://wrathofzombie.wordpress.com/2013/04/02/loneliest-man-in-hexenbraken/
 18,12,,1812,woodland,,,Chris Blauwkamp,The southern edge of this hex ends in sharp cliffs. The wind as it blows throw the nooks and crannies sounds like a mournful version of the Harlem Globetrotters theme.,
 18,13,,1813,sea,,,Martin Bay Thomsen,"Giant Sea Cucumbers. If brought to the surface they shrivel and harden, their skin makes for excellent armor.",
 18,14,,1814,sea,,,Joey Lindsey,The tide and coastal shape causes detritus to wash up and get stuck in this stinky bog. Crocodiles and hippopotamuses live in an uneasy truce.,
@@ -676,8 +676,8 @@ x_index,y_index,extra_1,hex_key,terrain,settlement,extra_2,author,description,Mo
 21,21,,2121,sea,,,Ben Djarum,Hidden in a rocky cove is a wild-eyed old man covered in seaweed. He sits in a tiny boat playing a flute for his long dead wife.,
 21,22,,2122,sea,,,Reece Carter,"a pirate ship that has no visible crew floats by. its actually crewed by ghost pirates, they will attack anyone that comes aboard their ship",
 21,23,,2123,sea,,,Claytonian JP,"Strange runed stones jut up here, forming a ring large enough for a small ship to enter. Anyone who prays here will find theirself, their companions, and their vessel on the top of a random mountain hex.",
-21,24,,2124,swamp,,,Reece Carter,a group of spider-goblins attack the party and attempt to herd them towards a pool of quicksand in the center of the hex. there are a number of magical items at the bottom of the pool of quicksand,
-21,25,,2125,swamp,,,Claytonian JP,"4 blue elves commune over a puddle. This is a sacred matter, and they won't discuss the source of the blood with anyone willingly.",
+21,24,,2124,swamp,,,Reece Carter,a group of spider-goblins attack the party and attempt to herd them towards a pool of quicksand in the center of the hex. there are a number of magical items at the bottom of the pool of quicksand,http://gamingithappens.blogspot.com.au/2013/04/the-hexenbracken.html
+21,25,,2125,swamp,,,Claytonian JP,"4 blue elves commune over a puddle of blood. This is a sacred matter, and they won't discuss the source of the blood with anyone willingly.",
 21,26,,2126,sea,,,Ray Colina,"Fishing boats frequent this bay. A wyvern from [[2127]], has on occasion swooped down to steal a catch as they pull up their nets. It has otherwise caused them no harm.",
 21,27,,2127,hill,,,Joey Lindsey,"the old man from [[2121]] wife is here, seeking passage west. She has been returned as a partially astral Paladin of the Beurocratic Demonities of Ashen Luck to claim the lives of witches; she will reward others who give her passage and promise to destroy witches a sword that, while pursuing that goal, has a +2 and Aura of Protection VS Magic (2/day, there's only one sword).",
 21,28,,2128,sea,,,Reece Carter,"this entire area is very shallow, you can tell this because of the various broken goblin flying machines that are in the water here, many a goblin died in their attempt to fly",
