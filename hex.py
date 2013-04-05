@@ -11,6 +11,7 @@ parser.add_argument('-f', '--format', dest='fmt', default='html',
                     help="Format of output: html or text")
 parser.add_argument('CSV', help="The CSV file with the hex descriptions.")
 parser.add_argument('Template', help="The template to use to generate webpage.")
+parser.add_argument('Title', help="The title of this hex map.")
 args = parser.parse_args(sys.argv[1:])
 
 
@@ -32,7 +33,7 @@ for h in csvhexmap:
     # X, Y, Extra, Hex Key, Terrain, Settlement(s), Extra, Author, Description
     location = h[3]
     location = h[3].strip('*')
-    if not location.isdigit() or not h[3]:
+    if not location.isdigit() or not h[7]:
         # skip empty / junky hexes
         continue
     settlement = h[5].upper().strip()
@@ -52,15 +53,18 @@ authors = set(d['author']
 authors = ', '.join(sorted(authors))
 
 # Yank out all references
-references = collections.defaultdict(list)
+references = collections.defaultdict(set)
 for l, details in hexes.iteritems():
     for d in details:
         for m in re.finditer(r"\[\[(\d\d\d\d)\]\]", d['description']):
-            references[m.group(1)].append(l)
+            if l != m.group(1):
+                references[m.group(1)].add(l)
         for m in re.finditer(r"\[\[(.*?)\]\]", d['description']):
             settlement = m.group(1).upper().strip()
             if not settlement.isdigit() and settlement in settlements:
-                references[settlements[settlement]].append(l)
+                location = settlements[settlement]
+                if l != location:
+                    references[location].add(l)
 
 def settlementlink(m):
     # Look up settlement in settlement map and create link if the settlement
@@ -106,4 +110,11 @@ env.filters['references'] = getreferences
 
 template = env.get_template(args.Template)
 
-print template.render(hexes=sorted(hexes.items()), authors=authors, references=references).encode('utf-8')
+context = {
+    'hexes': sorted(hexes.items()),
+    'authors': authors,
+    'references': references,
+    'title': args.Title
+}
+
+print template.render(**context).encode('utf-8')

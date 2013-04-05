@@ -1,4 +1,4 @@
-# The Hexenbrack
+# {{ title }}
 
 For more information see: http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/
 
