@@ -57,6 +57,10 @@ for l, details in hexes.iteritems():
     for d in details:
         for m in re.finditer(r"\[\[(\d\d\d\d)\]\]", d['description']):
             references[m.group(1)].append(l)
+        for m in re.finditer(r"\[\[(.*?)\]\]", d['description']):
+            settlement = m.group(1).upper().strip()
+            if not settlement.isdigit() and settlement in settlements:
+                references[settlements[settlement]].append(l)
 
 def settlementlink(m):
     # Look up settlement in settlement map and create link if the settlement
