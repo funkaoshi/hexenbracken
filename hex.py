@@ -47,10 +47,10 @@ for h in csvhexmap:
     })
 
 # Yank out all the authors
-authors = set(d['author']
-              for l, details in hexes.iteritems() for d in details
-              if d['author'])
-authors = ', '.join(sorted(authors))
+authors = [d['author'] for l, details in hexes.iteritems() for d in details
+           if d['author']]
+author_histogram = collections.Counter(authors)
+
 
 # Yank out all references
 references = collections.defaultdict(set)
@@ -112,7 +112,8 @@ template = env.get_template(args.Template)
 
 context = {
     'hexes': sorted(hexes.items()),
-    'authors': authors,
+    'authors': u", ".join("%s (%s)" % (author, count)
+                          for author, count in author_histogram.most_common()),
     'references': references,
     'title': args.Title
 }
