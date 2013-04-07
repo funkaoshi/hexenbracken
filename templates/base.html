@@ -7,7 +7,6 @@
         <title>{% block title %}Hexcrawl{% endblock %}</title>
 
         <style type="text/css" media="screen">
-
         body {
             background: url("http://carcosa.totalpartykill.ca/static/ricepaper2.png")
         }
@@ -67,12 +66,25 @@
             clear: both;
             font-size: 16px;
         }
+        .hex .nav {
+            display: none;
+        }
+        .hex:hover span.nav {
+            display: inline;
+            margin-left: 1em;
+        }
         .hex p {
             text-indent: 0;
         }
         .hex .location {
             float: left;
             width: 160px;
+        }
+        .hex .location a.permalink {
+            color: black;
+        }
+        .hex:hover .location a.permalink {
+            color: #C65B53;
         }
         .hex .location p.location {
             padding-top: 8px;
@@ -153,7 +165,13 @@
         <div class='hex' id="{{ location }}">
             <div class='location'>
                 <p class='location'>
-                    {{ location }}
+                    <a href='#{{ location }}' class='permalink'>{{ location }}</a>
+                    <span class='nav'>
+                    {% if location|nw %}<a class='top' href='#{{ location|nw }}'>&#8662;</a>{% else %}&#8662;{% endif %}
+                    {% if location|sw %}<a class='bottom' href='#{{ location|sw }}'>&#8665;</a>{% else %}&#8665;{% endif %}
+                    {% if location|ne %}<a class='top' href='#{{ location|ne }}'>&#8663;</a>{% else %}&#8663;{% endif %}
+                    {% if location|se %}<a class='bottom' href='#{{ location|se }}'>&#8664;</a>{% else %}&#8664;{% endif %}
+                </span>
                 </p>
                 {% if location|references %}
                 <p class="references">

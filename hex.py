@@ -66,12 +66,13 @@ for l, details in hexes.iteritems():
                 if l != location:
                     references[location].add(l)
 
+
 def settlementlink(m):
     # Look up settlement in settlement map and create link if the settlement
     # exists.
     settlement = m.group(1).upper().strip()
     if settlement in settlements:
-        return "<a href='#{hex}' class='city-link'>{settlement}</a>".format(
+        return u"<a href='#{hex}' class='city-link'>{settlement}</a>".format(
                 settlement=settlement, hex=settlements[settlement])
     return settlement
 
@@ -90,9 +91,45 @@ def hex2link(text):
 def getreferences(h):
     # return references for this hex.
     if h in references:
-        return ', '.join("<a class='hex-link' href='#%s'>%s</a>" % (l, l)
+        return u', '.join("<a class='hex-link' href='#%s'>%s</a>" % (l, l)
                          for l in sorted(references[h]))
-    return ''
+    return u''
+
+
+def coordinates(location):
+    return int(location[:2]), int(location[2:])
+
+last_hex = sorted(hexes.keys())[-1]
+max_x, max_y = coordinates(last_hex)
+
+def nw(location):
+    x, y = coordinates(location)
+    if x % 2 == 1:
+        y -= 1
+    x -= 1
+    return '' if x <= 0 or y <= 0 else "%02d%02d" % (x, y)
+
+def ne(location):
+    x, y = coordinates(location)
+    if x % 2 == 1:
+        y -= 1
+    x += 1
+    return '' if x >= max_x or y <= 0 else "%02d%02d" % (x, y)
+
+def se(location):
+    x, y = coordinates(location)
+    if x % 2 == 0:
+        y += 1
+    x += 1
+    return '' if x >= max_x or y >= max_y else "%02d%02d" % (x, y)
+
+def sw(location):
+    x, y = coordinates(location)
+    if x % 2 ==1:
+        y += 1
+    x -= 1
+    return '' if x <= 0 or y >= max_y else "%02d%02d" % (x, y)
+
 
 def process(description):
     # Fix some poor grammar / punctuation
@@ -107,6 +144,11 @@ def process(description):
 env = jinja2.Environment(loader=jinja2.FileSystemLoader('templates'))
 env.filters['process'] = process
 env.filters['references'] = getreferences
+env.filters['nw'] = nw
+env.filters['ne'] = ne
+env.filters['sw'] = sw
+env.filters['se'] = se
+
 
 template = env.get_template(args.Template)
 
