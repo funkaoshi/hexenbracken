@@ -1,79 +1,52 @@
 import argparse
-import collections
-import csv
-import jinja2
+import os
 import re
 import string
 import sys
+
+import jinja2
+
+import utfcsv
+import hexmap as hm
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--format', dest='fmt', default='html',
                     help="Format of output: html or text")
 parser.add_argument('CSV', help="The CSV file with the hex descriptions.")
-parser.add_argument('Template', help="The template to use to generate webpage.")
 parser.add_argument('Title', help="The title of this hex map.")
 args = parser.parse_args(sys.argv[1:])
 
-
-# UTF8 CSV Reader
-# from: http://stackoverflow.com/q/904041/2100287
-def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
-    csv_reader = csv.reader(utf8_data, dialect=dialect, **kwargs)
-    for row in csv_reader:
-        yield [unicode(cell, 'utf-8') for cell in row]
-
-# Read CSV dump of Google Docs hex map descriptions.
-csvhexmap = unicode_csv_reader(open(args.CSV, 'rb'))
+if args.fmt == 'html':
+    template_name = os.path.basename(args.CSV)[:-3] + 'html'
+elif args.fmt == 'text':
+    template_name = 'text.txt'
 
 
-# Load hexes from CSV dump.
-hexes = collections.defaultdict(list)
-settlements = {}
-for h in csvhexmap:
-    # X, Y, Extra, Hex Key, Terrain, Settlement(s), Extra, Author, Description
-    location = h[3]
-    location = h[3].strip('*')
-    if not location.isdigit() or not h[7]:
-        # skip empty / junky hexes
-        continue
-    settlement = h[5].upper().strip()
-    if settlement:
-        settlements[settlement] = location
-    hexes[location].append({
-        'settlement': settlement,
-        'author': h[7],
-        'description': h[8] or '-'.encode('utf-8'),
-        'moreinfo': h[9]
-    })
-
-# Yank out all the authors
-authors = [d['author'] for l, details in hexes.iteritems() for d in details
-           if d['author']]
-author_histogram = collections.Counter(authors)
+# Read CSV dump of Google Docs hex map descriptions and create hexmap of
+# the data.
+with open(args.CSV, 'rb') as csvfile:
+    hexmap = hm.HexMap(utfcsv.unicode_csv_reader(csvfile))
 
 
-# Yank out all references
-references = collections.defaultdict(set)
-for l, details in hexes.iteritems():
-    for d in details:
-        for m in re.finditer(r"\[\[(\d\d\d\d)\]\]", d['description']):
-            if l != m.group(1):
-                references[m.group(1)].add(l)
-        for m in re.finditer(r"\[\[(.*?)\]\]", d['description']):
-            settlement = m.group(1).upper().strip()
-            if not settlement.isdigit() and settlement in settlements:
-                location = settlements[settlement]
-                if l != location:
-                    references[location].add(l)
+if args.fmt == 'stats':
+    print 'Most referenced Hexes:'
+    for l, count in hexmap.reference_histogram[-10:]:
+        print "\t%s mentioned %d times" % (l, count)
+    print 'Themes found in hexes:'
+    for l, count in hexmap.themes_histogram:
+        print "\t%s mentioned %d times" % (l, count)
+    exit(0)
 
+
+# Output Data to Template
 
 def settlementlink(m):
     # Look up settlement in settlement map and create link if the settlement
     # exists.
     settlement = m.group(1).upper().strip()
-    if settlement in settlements:
+    if settlement in hexmap.settlements:
         return u"<a href='#{hex}' class='city-link'>{settlement}</a>".format(
-                settlement=settlement, hex=settlements[settlement])
+                settlement=settlement, hex=hexmap.settlements[settlement])
     return settlement
 
 def hex2link(text):
@@ -90,16 +63,15 @@ def hex2link(text):
 
 def getreferences(h):
     # return references for this hex.
-    if h in references:
+    if h in hexmap.references:
         return u', '.join("<a class='hex-link' href='#%s'>%s</a>" % (l, l)
-                         for l in sorted(references[h]))
+                          for l in sorted(hexmap.references[h]))
     return u''
-
 
 def coordinates(location):
     return int(location[:2]), int(location[2:])
 
-last_hex = sorted(hexes.keys())[-1]
+last_hex = sorted(hexmap.hexes.keys())[-1]
 max_x, max_y = coordinates(last_hex)
 
 def nw(location):
@@ -149,14 +121,13 @@ env.filters['ne'] = ne
 env.filters['sw'] = sw
 env.filters['se'] = se
 
-
-template = env.get_template(args.Template)
+template = env.get_template(template_name)
 
 context = {
-    'hexes': sorted(hexes.items()),
+    'hexes': sorted(hexmap.hexes.items()),
     'authors': u", ".join("%s (%s)" % (author, count)
-                          for author, count in author_histogram.most_common()),
-    'references': references,
+                          for author, count in hexmap.author_histogram.most_common()),
+    'references': hexmap.references,
     'title': args.Title
 }
 
