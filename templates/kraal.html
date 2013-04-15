@@ -7,13 +7,17 @@
 margin-left: -26px;
 border: 3px solid black;
 }
+a,
+.hex:hover .location a.permalink {
+    color: #3B62B0;
+}
 {% endblock %}
 
 {% block header %}
 <h1>The Kraal</h1>
 
 <div id="introduction" class="write-up">
-<p>Frost giants, mastodons, devil swine. A land of never ending winter. This is the Kraal.</p>
+    <p>Frost giants, mastodons, devil swine. A land of never ending winter. This is the Kraal.</p>
 </div>
 
 <h2>A Map of the Kraal</h2>
@@ -429,7 +433,7 @@ border: 3px solid black;
 <div id="about" class="write-up">
     <h2>About this Project</h2>
     <p>Like <a href="http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/">The Hexenbracken</a> before it, this is another attempt to crowd source a hex crawl. This time I turned the resulting comment thread into a <a href="https://docs.google.com/spreadsheet/ccc?key=0Aut5jjG23OrWdDVHSVBXc3diaFFfQ29tbXRyWXZBc2c">Google Doc</a>, which was then cleaned up with the help of <a href="http://www.necropraxis.com/">Brendan Strejcek</a>, <a href="https://plus.google.com/116156520511467455207/about">James Young</a>, <a href="https://plus.google.com/112721851706837901923/about">Ben Hannigan</a> and <a href="http://metalvsskin.blogspot.ca/">Joey Lindsey</a>. A bunch of <a href="https://github.com/funkaoshi/hexenbracken">Python code</a> turns that into the page you see.</p>
-    <p>A big thank you to <a href="http://dndwithpornstars.blogspot.com/">Zak Smith</a> for organizing and to all the contributors: {{ authors }}.
+    <p>A big thank you to <a href="http://dndwithpornstars.blogspot.com/">Zak Smith</a> for organizing,  <a href="https://plus.google.com/112721851706837901923/about">Ben Hannigan</a> for going above and beyond in editing the Google Doc, and to all the contributors: {{ authors }}.
     </p>
 </div>
 {% endblock %}
