@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block extracss %}
+h1, h2, h3, h4 { color: #8A432E }
+a, .hex:hover .location a.permalink { color: #B4483C; }
+img#hexmap { margin-left: -63px; }
+{% endblock %}
+
+{% block header %}
+<h1>{{ title }}</h1>
+
+<h2>A Map of {{ title }}</h2>
+<img id="hexmap" src="synthexia.png" alt="..." usemap="#hexenmap">
+
+{% endblock %}
+
+{% block footer %}
+<div id="about" class="write-up">
+    <h2>About this Project</h2>
+    <p>Another day another hexcrawl. As always these are a community effort. <a href="https://plus.google.com/112721851706837901923/about">Ben Hannigan</a>, who did a fantastic job editing <a href="http://save.vs.totalpartykill.ca/grab-bag/kraal/">The Kraal's</a> source material, wrote a script to automate the process of taking a Google+ thread and turning it into a Google Doc. As before, a bunch of <a href="https://github.com/funkaoshi/hexenbracken">Python code</a> then takes that Google Doc and makes the page you see.</p>
+    <p>A big thank you to <a href="http://swordfishislands.blogspot.ca/">Jacob Hurst</a> for <a href="https://plus.google.com/u/0/116357045271154658211/posts/SZfvffcHVZd">organizing</a> and to all the contributors: {{ authors }}.
+    </p>
+</div>
+{% endblock %}

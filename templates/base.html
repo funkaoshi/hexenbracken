@@ -61,6 +61,12 @@
         p:first-child {
             text-indent: 0;
         }
+        ul {
+            padding-left: 0;
+        }
+        ul li {
+            list-style: none;
+        }
 
         /* Hex Description */
 
@@ -184,8 +190,8 @@
             {% for hex in descriptions %}
             <p class='description'>
                 {{ hex.description|process }}
-                {% if hex.moreinfo %}
-                <span class="more-info"><a href="{{ hex.moreinfo }}">Read More</a></span>
+                {% if hex.url %}
+                <span class="more-info"><a href="{{ hex.url }}">Read More</a></span>
                 {% endif %}
             </p>
             {% endfor %}

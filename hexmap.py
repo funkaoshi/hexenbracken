@@ -37,7 +37,7 @@ class HexMap(object):
         self.settlements = {}
         for h in csvfile:
             h = Hex(h[3], h[5], h[7], h[8], h[9], h[10])
-            if not h.location.isdigit() or not h.description:
+            if not h.location.isdigit() or not h.author:
                 # skip empty / junky hexes
                 continue
             if h.settlement:
