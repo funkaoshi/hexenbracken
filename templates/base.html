@@ -32,16 +32,15 @@
 
         a,
         .hex:hover .location a.permalink {
-            color: #C65B53;
+            color: {% block linkcolor %}#C65B53;{% endblock %}
         }
         a {
-            color: #C65B53;
             font-weight: bold;
             text-decoration: none;
         }
-        h1, h2, h3 {
+        h1, h2, h3, h4 {
             font-family: 'Futura', 'Helvetica', 'Arial';
-            color: #8B96C7;
+            color: {% block titlecolor %}#8B96C7;{% endblock %}
             text-align: center;
         }
         h1 {
@@ -91,7 +90,7 @@
             width: 160px;
         }
         .hex .location a.permalink {
-            color: black;
+            color: {% block locationcolor %}black;{% endblock %}
         }
         .hex .location p.location {
             padding-top: 8px;
