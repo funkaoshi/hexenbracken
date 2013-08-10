@@ -29,7 +29,10 @@ class HexMap(object):
         storing descriptions and information about the area described. The
         expected fields, in order, are:
 
+            0  1  2       3        4        5              6       7
             X, Y, UNUSED, Hex Key, Terrain, Settlement(s), UNUSED, Author, ...
+
+                8            9    10
             ... Description, URL, Themes
         """
         self.hexes = collections.defaultdict(list)
