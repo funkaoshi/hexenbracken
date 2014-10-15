@@ -1,193 +1,386 @@
 x ,y,,x y,More Info URL,Settlement,,Author,Description,,Themes,NPCs
+
 00,12,,0012,Grassland,IRIDIUM VALKYRIE,,Jacob Hurst,"The wreck of The [[IRIDIUM VALKYRIE]]. Emergency beacon still running, and the frigate's hull is coated in growths of red crystal.",,,
+
 00,13,,0013,Forested Mountains,,,Patrick Stuart,Self-upgraded cyborg factory girls with punk-hacked indenture-chips hurry to repair abandoned fleet of titanium-sleeve rocket cycles for violent anarchist-feedom-haj to Hex [[0902]],,,
+
 01,03,,0103,Mountains,,,Piratanegro Libre,"Chromed alien gate on top of the mountain, who crosses it, will end in a hexagon with stars, being sucked into the emptiness of space.",,,
+
 01,04,,0104,Forested Hills,,,Konstantin M,A vast clone-growing facility has been claimed by the forest. The operators have gone cargo-cult; offer sacrifices to the void-vultures; will trade for crystal. They pay tribute to the mind-sculptor from Hex [[0202]].,,,
+
 01,05,,0105,Forest,,,Judd Karlman,Village of the clones descended from Hex [[0104]]. They see the former operators as holy prophets of the <<Mind-Sculptor<< from [[0202]].,,Mind-Sculptor,
+
 01,08,,0108,Forest,,,David Brawley,"A great stone tower juts from the edge of the land, a great mass of lenses peering out into the darkness. NecroCybernetic and robotic caretakers don't take kindly to visitors.",,,
+
 01,11,,0111,Grassland,,,Ramanan S,"A pack of giant tigers stalk these plains. They use their telepathic powers to track their prey, and can communicate with any creature regardless of the language they speak.",,,
+
 01,12,,0112,Starfruit Forest,HALEWOOD,,Ed Hackett,"The trees of [[HALEWOOD]] are sentient and communicate by physically ""interfacing"" with other sentient creatures. This process is painful and potentially lethal to non-vegetation.",,,
+
 01,13,,0113,Forested Mountains,,,Judd Karlman,"Biodegradable rocket graveyard, where dead rockets were buried causing the trees to dream of distant stars and any ore mined in the hills to give off radiation from alien stars.",,,
+
 02,01,,0201,Mountains,,,Shaine Edwards,A tribe of <<Glamazons<< live in the shadow of the volcano in Hex [[0202]]. Each daughter of the tribe that carries an unbroken ostrich egg to the volcano may join the ranks of the <<War Witches<<.,,Glamazons; War Witches,
+
 02,02,,0202,Volcano (Extinct),,,Patrick Stuart,The {{Mind-Scuptor}} dwells in a chromium lattice formed in the decaying core of an extinct volcano. His War Witch {{Onero-Cyber}} flocks hunt the Noosphere for tantilising minds for him to mold.,,Mind-Sculptor,Mind-Sculptor; Onero-Cyber
+
 02,03,,0203,Mountains,,,Judd Karlman,"The coven of the <<Orthodox War Witches<<, who follow the hunting directions of none but the Crystal Demon-God, an ancient AI.",,Orthodox War Witches,
+
 02,04,,0204,Forested Mountains,,,Ed Hackett,2d4 Mutant predators hunt here as a pack. 25% chance they already have a fresh kill.,,,
+
 02,05,,0205,Forested Hills,,,Joey Lindsey,"Defective/deformed clones from Hex [[0104]] and Hex [[0105]] have an insular settlement in old mine shafts, stealing from surface travelers and raising huge fungus forests underground. When they come of age they ""ascend"", which means replacing their heads with ancient square ""image receptors"" scavenged from a buried spaceship.",,,
+
 02,06,,0206,Forest,,,Shaine Edwards,"Void Vultures perch atop the head of a titanic war golem half buried near the edge. A wizard camps nearby, hoping to unlock the secret of the ancient Head.",,,
+
 02,08,,0208,Forest,,,Konstantin M,"The anti-grav domes of a flooded lab are now home to the <<Moon-Children<<, who seek refuge from the warp-storm. Naive, scared, tendrilled and incredibly powerful psions. Like to grow horrors in the bio-lab and watch them play in nearby hexes.",,Moon-Children,
+
 02,12,,0212,Grassland,A VILLAGE,,David Brawley,"[[A VILLAGE]] sits on the crumbling edge, it's people refuse to leave, believing their fate is tied to the land. The doom cult is fostered by a flame haired cyborg woman.",,,
+
 02,13,,0213,Starfruit Forest,HALEWOOD,,Jacob Hurst,"[[HALEWOOD]] continues from Hex [[0112]]. The last regiment of General Raxxis Novasmasher have been biowelded to the trunks of 20,000 iridescent oak trees awaiting an awakening that may never come.",,,
+
 03,01,,0301,Mountains,,,David Brawley,Degenerate cannibalistic cavemen reside in these labyrinthian passages and caves. They are led by and worship an AI residing in a glowing green crystal that follows an intricate pattern above the mountaintops.,,,
+
 03,02,,0302,Mountains,,,Shaine Edwards,2D10 cyberwolves serve as the army of a {{Rogue Pleasure Droid}}.,,Rogue Pleasure Droid,Rogue Pleasure Droid
+
 03,03,,0303,Forested Mountains,HOLIDAY VILLAS,,David Brawley,"[[HOLIDAY VILLAS]] of the rogue pleasure droid from Hex [[0302]] overlook the starry edge. Each is highly monitored by the droid, and contains both great luxuries and great internal security.",,Rogue Pleasure Droid,
+
 03,04,,0304,Forested Mountains,SHRINE OF ELDARIA,,Jacob Hurst,"Glitter Harpies have nested in abandoned missile silos that dot the mountains throughout this hex. The ruins of the [[SHRINE OF ELDARIA]], sacred to the <<War Witches<<, are here as well.",,War Witches,
+
 03,05,,0305,Forested Hills,,,Patrick Stuart,"Gangster savages count coup by running to stare into the TV screen heads of the mutants from Hex [[0205]] then escaping. Crime tribes nesting the the black encyclic ruined rooms make death fetishes of known foes from ivory and bone, their powers, unknown.",,,
+
 03,06,,0306,Forested Hills,,,David Brawley,"A crystal bridge stretches out into the starry void, shattered about a half mile from the edge. Living in the tower just before the break is {{Ziggy Stardust}}, chaos mage.",,,Ziggy Stardust
+
 03,07,,0307,Forested Hills,,,Jacob Hurst,"{{""Mr Kitty""}}, a lurid green tiger with yellow stripes and orange gem-like eyes, grown from one of the vats in Hex [[0208]] makes these hills his home. He hates his name, but no one has yet survived long enough to give him a new one.",,,Mr Kitty
+
 03,08,,0308,Forest,GREAT LIBRARY,,Joey Lindsey,"A swarm of cultured, hyper-intelligent nanobots maintain a [[GREAT LIBRARY]] of ancient texts carved into the trees here. The nanobots attempt to set creatures at ease, assembling into their best approximation of any visitor's form.",,,
+
 03,09,,0309,Forest,STARSHINE PENINSULA,,Jacob Hurst,"Here on the [[STARSHINE PENINSULA]], the ancient tree's mirrored leaves reflect the void. The silver skinned goblin wolf-riders who live here are said to steal dreams and weave them into cloth.",,,
+
 03,12,,0312,Forest,STAR GROVE,,Judd Karlman,"The [[STAR GROVE]] grows in concordance with a distant star system, a living garden map.",,,
+
 03,13,,0313,Forested Mountains,,,David Brawley,At the top of the mountain is a portal which will send anyone stepping through it to a random location on 1) this map 2) Hexenbracken or 3) krall and guarded by a starmetal golem.,,,
+
 04,04,,0404,Forested Mountains,,,Jacob Hurst,Weirdness from the void seeps into tar pits in the mountain valleys animating the skeletons of saber-toothed terrors.,,,
+
 04,05,,0405,Forested Mountains,CRUMBLING CITY,,Konstantin M,"Saber-toothed-skeleton bikers and laser-lancers in [[CRUMBLING CITY]], turned barbarian fortress, plagued by <<Periodic Mass Madness<<. Their {{So-Called King}}, half his face alien science, loves exiling people, will soon regret burning the war-witch shrine in Hex [[0304]] and otherwise pissing off most neighbors.",,Periodic Mass Madness,So-Called King
+
 04,06,,0406,Forested Hills,,,Shaine Edwards,"A recent spacequake has uncovered dozens of crystalline sarcophagi, each containing <<Saurian<< remains. If disturbed, the coffins will combine to form a crystal colossus armed with a huge energy sword.",,Saurian,
+
 04,07,,0407,Forested Hills,CASTLE OF THE ZODIAC KNIGHTS,,Shaine Edwards,An orgone accumulator can be found beneath the [[CASTLE OF THE ZODIAC KNIGHTS]]. The device is rumored to heal all sickness and grievous wounds.,,,
+
 04,08,,0408,Forest,,,Chris Tamm,A archmage tower guarded by village of <<Guineapig Men<< barbarians in scale armour. One of their heroes flies in a sky sled while his two velocer raptor hybrid brothers follow.,,Guineapig Men,
+
 05,04,,0504,Grassland,,,Shaine Edwards,{{The Night Pharaoh}} and his band of outlaw science priests plot the assassination of the Sorceress in Hex [[0902]],,,The Night Pharaoh
+
 05,05,,0505,Grassland,,,Shaine Edwards,{{The Knight of Capricorn}} challenges all comers to joust. His helm has been infected by a chaotic nano-cloud recently broken off from the swarm in Hex [[0308]].,,,The Knight of Capricorn
+
 05,06,,0506,Grassland,,,Jacob Hurst,"Herds of six legged ibex graze the plains here, watched over by giant tripods that attempt to carry out the last wishes of {{Temnok the Wise}} before he became The Night Pharaoh of Hex [[0504]].",,,Temnok the Wise
+
 05,07,,0507,Forest,,,Jacob Hurst,"The trees here are silent and full of iridescent spiderwebs. The ""spiders"" have legs of human fingers, bodies of human hands, and a large robotic eye.",,,
+
 05,08,,0508,Dead Forest,,,Judd Karlman,The trees here were once batteries but someone used up the energy and neglected to set up the recharging. So the forest waits...,,,
+
 05,11,,0511,Devastation,TEMPLE COMPLEX,,Jacob Hurst,Shattered megalithic arches of black jade float at the edge of the void. <<Priests of Set<< have recently built a [[TEMPLE COMPLEX]] around a pool of mithril beneath the grandest of the arches.,,Priests of Set,
+
 06,01,,0601,Mountains,,,Judd Karlman,"An enterprising group off misfits and pariahs from all over this world are attempting to turn one of the mountains into a ship, disconnect from land and float into the void.",,,
+
 06,03,,0603,Devastation,CANIS-3,,Konstantin M,"The devastation begins here, where sorceries clashed. The city of [[CANIS-3]] after the Theta Bomb: a giant twisting gun-metal growth, home to Ant- and Dog-men, digging for relics in the white desert sand. Thirst, Slavery, and Unexploded Ordnance Hazard.",,,
+
 06,04,,0604,Devastation,,,David Brawley,"The devastation takes the form of hexagonal fracturing of the earth. Each hex is a different height, some tower above all, some plunge deep. Crystal centipedes live among the hexes.",,,
+
 06,05,,0605,Devastation,,,Joey Lindsey,"Here, it is a devastation of thought; no new ideas can happen; the only thoughts here are thoughts carried in. Those present live in grey desperation, welcoming travelers; if they could hope, they'd hope someone suggests they leave.",,,
+
 06,06,,0606,Grassland,,,Shaine Edwards,A massive {{golden sphinx}} watches over the edge of the [[DEVESTATION]]. It's communication relay allows the Mind-Sculptor from Hex [[0202]] to monitor the area.,,Mind-Sculptor,Golden Sphinx
+
 06,07,,0607,Dead Forest,ONCELAND,,Nigel O'Rear,Small settlements of greyscale holograms dot the gentle hills of the [[ONCELAND]]. These quiet folk drain what little color that can be found here to empower their heroes; towering titans of hard light that summon rainbows to their aid.,,,
+
 06,08,,0608,Dead Forest,,,David Brawley,"The woods appear dead, but they hunger for life. Any life. Yours will do nicely.",,,
+
 06,09,,0609,Starfruit Forest,,,Judd Karlman,"The dead trees have begun to bloom and yet they are still dead. An aggressive algae from another world has granted them a sort of undead existence, living off starlight and whatever animals get too close.",,,
+
 06,10,,0610,Dead Forest,,,Jacob Hurst,A meteor has crashed into the dead forest throwing both the land and trees into upheaval. A chunk of glowing metal has been reported in the crater and rocks in the area have begun to grow teeth and tentacles.,,,
+
 06,11,,0611,Devastation,,,Shaine Edwards,A herd of <<psychic centaurs<< dwell amongst the rocky landscape. The neon tattoos on their flanks mark them as enemies of the Priests of Set in Hex [[0511]].,,Psychic Centaurs,
+
 07,01,,0701,Grassland,,,Jacob Hurst,Miles of gently rolling plains covered in crystalline star poppies are dotted with the interstellar ships of the pirates who harvest them.,,,
+
 07,03,,0703,Devastation,PORT CITY,,Scott Kuban,"A [[PORT CITY]] in the devastation. Once populated by transhumanist cyborgs, terrible events caused the deaths of all organics. Now, only the robotic husks continue, shambling along automated routines.",,,
+
 07,04,,0704,Devastation,,,Jacob Hurst,Hundred foot tall trash heaps of the devastation. Golden shelled stag beetles and copper shelled Heracles beetles the size of dinner plates are found here in abundance.,,,
+
 07,05,,0705,Grassland,,,Jacob Hurst,"A vast grassy plain stretches to the glowing trash heaps on the horizon to the north. Ancient metallic wrecks reach out from the ground to the sky, and small blue creatures with many limbs search for working parts to help them one day reach across the empty void to the north.",,,
+
 07,06,,0706,Grassland,,,Nigel O'Rear,"This pastoral plain of pink grass is home to the <<Glamazons<<, women-warriors who's collective fashion sense is as sharp as their spears. They raid the surrounding territories for mates, keeping the choicest men as servile pets who toil in mineral mines for gemstones which are ground up and used in their mistresses' elaborate facepaint.",,Glamazons,
+
 07,06,,0706,Grassland,,,David Brawley,"The starflower fields that stretch across this plain capture and redirect light, causing anyone who disturbs them to become the focus of their lazer-like affection. Giant purple crickets tend these 4' tall plants.",,,
+
 07,07,,0707,Dead Forest,,,Scott Kuban,"Is home of the <<Pale Tribes<<. A nocturnal people, they emerge from subterranean dwelling after smearing their faces with a white, stimulant-laced woad. This mystical substance gives them the power to wage their nightly battles over whose tribe composes the most sorrowful dirges.",,Pale Tribes,
+
 07,08,,0708,Dead Forest,CITADEL OF TONGUES,,Nigel O'Rear,"The [[CITADEL OF TONGUES]] stands within the blackend forests. Here, acolytes train day and night in the sacred rhyming martial art known only as The Word.",,Citadel of Tongues,
+
 07,09,,0709,Dead Forest,CATHEDRAL OF OHM,,David Brawley,"The spire of the great [[CATHEDRAL OF OHM]] is wreathed in lightning, while its long halls sit mostly empty of all, including dust. Rumor has it that a great complex below the cathedral houses the treasures of the Arch-Tesla.",,,
+
 07,10,,0710,Grassland,ELECTRICIA,,Jacob Hurst,"The village of [[ELECTRICIA]] sits by a picturesque stream in a pastoral landscape. The inhabitants of the village tend their robo-sheep, apparently unaware of the destruction around them.",,,
+
 07,11,,0711,Devastation,CRYSTALIAN MOSAIC,,Scott Kuban,"The [[CRYSTALIAN MOSAIC]] dominates here. Overseen by a titanic psi-angelic creature comprised of wings and tendrils, slave-artisans toil eternally to fulfill the being's ever shifting vision of sublime beauty. A single crack in one of the city-block sized crystal tiles invites cataclysmic reprisal from the beast above, wiping out miles of intricate work.",,,
+
 08,01,,0801,Grassland,RAZOR PLANES,,Dave Sutton,"[[RAZOR PLANES]] As you travel east, the rolling hills turn to sharp cliffs, and the beautiful poppies into crystal-toothed snappers. A wrong turn here will drop you into a pit of gigantic carnivorous snapping-poppies, whose poisonous bite lulls your mind into a euphoric and self-destructive state.",,,
+
 08,04,,0804,Grassland,,,Jacob Hurst,A small tribe of goblins enslaved by war witches mine the midnight clay pits.,,War Witches,
+
 08,05,,0805,Grassland,,,Jacob Hurst,"The plains are dotted with small moonstone pillars covered in geometric runes. Starjackals, sacred to Set, roam the fields here.",,Priests of Set,
+
 08,06,,0806,Grassland,,,Chris Tamm,"Rainbow colored alien grass, covered in weird saliva, attracts giant space moths and caterpillars. A sect of deadbeat apprentice wizard dropouts gather here to try and hitch a ride man.",,,
+
 08,07,,0807,Dead Forest,GRAND CATHEDRAL,,Konstantin M,"Carnivorous unlife lies in wait just below the ashen ground, but high above: floating discs, dead sky-whales, and lots of tethering chain, support a pastoral ""utopia"". {{Tyranny-of-Form}} lies murdered in her [[GRAND CATHEDRAL]], slowly reviving, while the {{Murder Cube}} seeks the escapees from Hex [[0013]].",,,Tyranny-of-Form; Murder Cube
+
 08,08,,0808,Grassland,MONASTERY,,Nigel O'Rear,"""How does one kill a Video Demon? Simple, apprentice - rewind his prison-cassette until he ceases to be...though our [[MONASTERY]] has only one Sacred Implement, and more tapes come every day.""",,,
+
 08,09,,0809,Dead Forest,,,David Brawley,"In the mines that go on for miles, a fire has burned for hundreds of years. The cinder trees live on, somehow, and salamanders nest in the branches.",,,
+
 08,10,,0810,Grassland,SACRED DRUG GROVE,,Chris Tamm,Cyborg tyrannosaur guards the [[SACRED DRUG GROVE]] of the <<mecha shaman<<. Outsiders are unwelcome to the contemplative philosophers.,,Mecha Shaman,
+
 08,12,,0812,Devastation,CRYSTALIAN MOSAIC,,David Brawley,The smashed ruins of the [[CRYSTALIAN MOSAIC]] (Hex [[0711]]) span this side of the landbridge. Tiny orange people in silver slave away to rebuild the once glorious work.,,,
+
 09,01,,0901,Starfruit Forest,FRUITLESS ORCHARD,,Nigel O'Rear,Neon Cyber-Unicorns frolic and duel in the [[FRUITLESS ORCHARD]]. Their segmented steel-flesh is a delicacy to the people of the crystalline city located in Hex [[0902]].,,,
+
 09,02,,0902,Starfruit Forest,CRYSTAL METROPOLIS,,Scott Kuban,"The [[CRYSTAL METROPOLIS]] towers over all, visible from every point in the land. It's citizens feast upon the bounty of the harvest of the world. {{Sad Ivory}}, the Sorceress Queen, spends her days atop the grand spire, reweaving the pattern of the stars in a mad attempt to woo the Sun to become her lover.",,,Sad Ivory
+
 09,04,,0904,Grassland,,,Jacob Hurst,A giant iridium hand and arm rises 500' into the air. Glitter harpies nest among its 15 fingers.,,,
+
 09,05,,0905,Grassland,PLAINS OF THE PURPLE BUFFALO,,David Brawley,"[[PLAINS OF THE PURPLE BUFFALO]], and home of the bowcaster armed <<Iconian Riders<<.",,Iconian Riders,
+
 09,06,,0906,Grassland,,,Jacob Hurst,Oil pools and steel jawed crocodiles.,,,
+
 09,07,,0907,Grassland,GATETOWN,,Nigel O'Rear,"[[GATETOWN]] is a bustling city where beings from across the land may congregate under the watchful eye of the {{Beggar King}}. The only barrier to entry is that you must have something to trade, be it skill at arms or riches fine.",,,Beggar King
+
 09,08,,0908,Grassland,,,Jacob Hurst,"All plant, animal, and monstrous life appears to be made from yards of black magnetic tape. The only exception is the sphinx who lives on a glass boulder at the eastern edge.",,,
+
 09,09,,0909,Grassland,GREAT GOLDEN CITY,,kenrick encinas,"At all times a [[GREAT GOLDEN CITY]] both exists and does not exist in the center of this land. When it is present the sky is purple, the grass is red, the wine makes you hunger, the food makes you thirst. When gone, the sky is green, the grass is blue, the wine poison, the food reasonably priced.",,,
+
 09,10,,0910,Hills,DWEOMERDALE,,Shaine Edwards,"[[DWEOMERDALE]], a village of sentient illusions has migrated West from the [[PRISMATIC MOUNTAINS]] beginning in Hex [[1110]].",,,
+
 09,11,,0911,Devastation,,,Jacob Hurst,"The rubble here is mined for iridium by the same tiny orange slaves dresed in silver found in Hex [[0812]]. They do not appear to have masters, but are afraid to go out at night.",,,
+
 09,12,,0912,Devastation,,,David Brawley,"The devastation causes frequent earthquakes here, knocking chunks along the edge to fall into into the void. Velocer raptors nest among the peaks.",,,
+
 09,13,,0913,Devastation,MINISTRY OF INFORMATION,,Jacob Hurst,The remains of the [[MINISTRY OF INFORMATION]] are said to be in this area of the devastation. The rumored crystal data spheres attracting a steady stream of pirates.,,Pirates of the Void,
+
 10,01,,1001,Devastation,,,Chris Tamm,On mountaintop lies a great pulsing cube of flesh riddled with tunnels. Creatures and cults dwell inside the mucous filled corridors for life.,,,
+
 10,02,,1002,Starfruit Forest,,,David Brawley,"The trees of this area bleed when cut, and their fruit are beating hearts. Local tradition holds that if the last fruit is taken from the tree it will hunt down all who have eaten from it.",,,
+
 10,05,,1005,Grassland,,,Nathaniel Hull,"A sloping plain angling steeply towards the void, inhabited by meter-tall, spherical fur balls that try vainly to roll up hill far enough each night so as to not fall into the void as they sleep. They are a delicacy in the city of [[0902]] (The [[CRYSTAL METROPOLIS]]) and [[0907]] ([[GATETOWN]]).",,,
+
 10,06,,1006,Grassland,,,Pearce Shea,"Men and Women in traditional dress engage in bacchanalian excess around an enormous, sentient head who denounces their actions as barbaric and unclean. Beneath their garb they are outrageously attractive in a he-man, she-ra kind of way (all wear unitards into which they barely fit, and the men have impossibly full hair, the women are just straight up feathered and 80s-curled). Both sides will try to conscript the PCs into helping them (taint the wine with a purgative or else engage in lasciviousness in front of the head).<br /><br />If aided, the head will let up to three people climb into its mouth. Wait there for two minutes and when he reopens his mouth you can be anywhere else in the map. He'll only do this once.<br /><br /><a href=""http://www.charlesfreger.com/works/big.php?no=[[1632]]"" class=""ot-anchor"" rel=""nofollow"">http://www.charlesfreger.com/works/big.php?no=[[1632]]</a>",,,
+
 10,07,,1007,Starfruit Mountains,STEEL CATHEDRAL,,Jacob Hurst,The [[STEEL CATHEDRAL]] stands among blood-flower orchards. The <<Cobalt Knights<< who live here consider themselves to be one of the last beacons of light left in Synthexia.,,Cobalt Knights,
+
 10,08,,1008,Grassland,,,David Brawley,"Ranchers living aboard their giant land crabs, ride them across the great grasslands. They're currently on their way toward [[GATETOWN]] to trade. It'll be a season before they arrive.",,,
+
 10,09,,1009,Grassland,,,Jacob Hurst,The grass in this area grows as feathers instead of blades. Giant Chrome Scorpions.,,,
+
 10,10,,1010,Hills,,,Chris Tamm,Mounds of ancient scrap robot heaps pile here and demented self built droids search scrap for upgrades. Rust monsters have been swarming of late and the poor robots are desperate.,,,
+
 10,11,,1011,Hills,,,Chris Tamm,A {{necromancer}} and a {{scientist}} are teaming up to build a undead cyber beholder using scraps from Hex [[1010]]. They live in a cave served by zombies and lame scrap built robots.,,,necromancer; scientist
+
 10,12,,1012,Devastation,,,David Brawley,The devastation has caused this area to be under perpetual cloud cover resulting in a hot and humid land covered in black molds. A great circular pit miles deep has a carved stair leading down into it's depths. Rumor has it that a shadow dragon sleeps at the bottom.,,,
+
 10,13,,1013,Devastation,CRYO-STATIONS,,Jacob Hurst,"The entrance to [[CRYO-STATIONS]] X4, Zenon3 and I-r12 can be found here within the devastation. An infestation of robo-cockatrice has resulted in most of the sleepers being turned to steel.",,,
+
 11,01,,1101,Devastation,,,David Brawley,The devastation creeps closer to The [[CRYSTAL METROPOLIS]] in the form of Rad-Roaches that eat all in their wake.,,,
+
 11,02,,1102,Devastation,,,Jacob Hurst,"A tribe of centaurs, defenders of The [[CRYSTAL METROPOLIS]] in Hex [[0902]], are slowly being warped by the devastation. Some have begun building altars to dark things from beyond the void.",,,
+
 11,03,,1103,Devastation,HIDDEN TORTUGA,,David Brawley,"<<Pirates of the Void<< have created a [[HIDDEN TORTUGA]] in the devastation hollowed lands here. Anything in the multiverse can be had, for the right price.",,Pirates of the Void,
+
 11,06,,1106,Starfruit Mountains,BEACON TOWER,,Judd Karlman,"The [[BEACON TOWER]] is kept lit here by a {{librarian}} and a {{summoner}} who settled down here to have children and chart the stars. Their Void Hounds patrol the hills, answering their call.",,,librarian; summoner
+
 11,07,,1107,Starfruit Mountains,COBALT RESEARCH FACILITY,,Jacob Hurst,"Cobalt Knights from the [[STEEL CATHEDRAL]] in Hex [[1007]] are attempting to breed their Diamond Dogs with the Void Hounds of the librarian in [[1106]]. Fearing explosions, the [[COBALT RESEARCH FACILITY]] is isolated in the mountains here.",,Cobalt Knights,
+
 11,08,,1108,Grassland,THE GREAT WEB,,David Brawley,The Eastern Pharaoh {{Solartep}} and his cyber-zombies rules this area with a skeletal fist. The City of [[THE GREAT WEB]] surges with the power of it's living batteries.,,,Solartep
+
 11,09,,1109,Hills,SUN FORGE,,Jacob Hurst,"The [[SUN FORGE]] in the foothills of the [[PRISMATIC MOUNTAINS]], is an ancient structure purported to have once forged amazing weapons of light using Synthexia's sun. Currently controlled by the demi-lich {{Argus Claxfire}} and his gang of Skeletoids.",,,Argus Claxfire
+
 11,10,,1110,Prismatic Mountains,REMOTE PALACE,,Joey Lindsey,"Proud warrior {{Aurach Mintas}} sits in his [[REMOTE PALACE]] on an improbable peak watching the images of his past battles as lasers flicker through the gem-backed memory crabs. He stirs rarely, and challengers are few these days; in his idleness an incorporeal demon has taken root in the palace, always whispering.",,,Aurach Mintas
+
 11,11,,1111,Prismatic Mountains,MAGMA WARRENS,,David Brawley,The Western edge of the [[PRISMATIC MOUNTAINS]] contains a massive gateway leading down into the depths of the [[MAGMA WARRENS]] that all eventually converge on Hex [[1311]]. Demonic things emerge regularly and harass anything in the area before they cool off and fall to ash.,,,
+
 11,12,,1112,Devastation,SWER-AL,,Judd Karlman,"An odd adventurer's boomtown [[SWER-AL]] has sprung up here. Treasure seekers often venture into the lair of the robo-cockatrices and the shadow dragon's pit (see Hex [[1012]] and Hex [[1013]]). They say the town elders keep a robo-cockatrice in a dry well and use it to render steely justice to lawbreakers, lining the square with the unjust.",,,
+
 11,13,,1113,Devastation,,,David Brawley,"The devastation caused strange changes in the rock of the mountains, and weird mountain men mine the ore and sell it to the smiths of [[SWER-AL]].",,,
+
 12,01,,1201,Devastation,STAR LIGHT TOWER,,Jacob Hurst,"[[STAR LIGHT TOWER]] has fallen in the devastation and is controlled by two factions of mecha-goblinoids. Those that control the remaining light pools, and those that want to.",,,
+
 12,02,,1202,Devastation,,,Ray Otus,"In his polycrystaline tower {{the knight}} who holds himself personally responsible for the devastation sits morosely strumming his nine-stringed harpsichron. The psychic strains of his music float over the hills, causing the rusty death machines to slumber on.",,,the knight
+
 12,03,,1203,Devastation,,,Chris Tamm,Here a great chain of lesser modrons hanging onto each other trails into the void. philosophers of cosmic order gather to contemplate the wonder. Modrons attempt to bridge the gulf between Hex [[1203]] and Hex [[1207]].,,,
+
 12,07,,1207,Starfruit Mountains,BURNING FOREST,,Chris Tamm,"The [[BURNING FOREST]] is a strain of diabolic trees from the hells. With ichor good for potions and their sticks make some wands. A lone modron stares into space from a cliff, awaiting modrons from Hex [[1203]].",,,
+
 12,08,,1208,Starfruit Mountains,HASELOUR,,David Brawley,Firefruit trees tended by giant pillbugs. The Village of [[HASELOUR]] appears as if everyone just walked away 5 minutes ago. It's been deserted for 50 years.,,,
+
 12,09,,1209,Hills,,,Nigel O'Rear,"These quiet foothills of the [[PRISMATIC MOUNTAINS]] off to the south are home to <<The Quiet<<, a band of monastic nomads who train day in night in complete silence. When their number reaches 108, they will free their families from Solartep's prison-city in Hex [[1108]], or die trying.",,The Quiet,
+
 12,10,,1210,Hills,TEMPLE OF BOVAX,,Jacob Hurst,"Storm clouds rain down fine metal filings over a land of weathered hills and valleys. The lightning is otherworldly, and the gorgon oracles in the [[TEMPLE OF BOVAX]] at the center of this hex are said to know the secrets of these storms.",,,
+
 12,11,,1211,Prismatic Mountains,,,David Brawley,"Chunks of the mountains occasionally break off and float away (wizards love to build towers on them). {{Karax the Despoiler}}, cybermancer and necrologist is tethering several of these large chunks together and wiring them with numerous speakers and dishes.",,,Karax the Despoiler
+
 12,12,,1212,Prismatic Mountains,,,Ray Otus,"Rubble-strewn slopes lead down to the devastation. A sprawling underground machine, insane from eons of loneliness, uses its countless goose-neck arms to reach through lava tubes and snag unwary creatures. The machine uses its harvest in sadistic social experiments.",,,
+
 12,13,,1213,Devastation,,,Joey Lindsey,"The cemetery of [[SWER-AL]] (in Hex [[1112]] ) is a series of stone cairns on rocky ground, as digging is impractical here. A {{Necrophage}} tends his flock of Wraiths in secret, biding his time.",,,Necrophage
+
 13,02,,1302,Devastation,,,Jensan Thuresson,Pack of living Sawtooth Waveforms.,,,
+
 13,03,,1303,Devastation,,,Jacob Hurst,An array of large crystalline satellite dishes amplifies all magic cast in this hex of the devastation. Sentient mats of mucus and hair live among the rubble.,,,
+
 13,03,,1303,Devastation,,,David Brawley,"The <<Holy Order of the Solar Rangers<< ""secret"" base sits in the middle of the devastation. The corruption has begun to warp the Rangers in cute, fuzzy, and terrifying ways!",,Holy Order of the Solar Rangers,
+
 13,07,,1307,Mountains,,,Chris Tamm,{{Malach the Science Wizard}} from his huge antenna covered observatory likes to test long range weapons of mass destruction in distant hexes and watch from here.,,,Malach the Science Wizard
+
 13,08,,1308,Hills,,,David Brawley,"The hills are alive with the sound of laser fire. The <<Bones<< vs the <<Hate-fields<<, none of whom ever stay dead for very long.",,Bones; Hate-fields,
+
 13,09,,1309,Hills,,,Jacob Hurst,A portal to the plane of Salt has desiccated much of this hex. Salt dryads help it spread by growing crystalline groves among the hills.,,,
+
 13,10,,1310,Prismatic Mountains,INFINITE WORM OF MRAMRA-KUL,,Arnold K.,"The [[INFINITE WORM OF MRAMRA-KUL]], and distending loops of its body writhe into and out of the sludge-like ground. Among the loops are dozens of squatting truth-seekers, who listen for the brief secrets shouted by the parasites that pass by inside the worm's semi-translucent intestine.",,,
+
 13,11,,1311,Volcano (Extinct),RY-LOSH,,Arnold K.,"The lava-tree of [[RY-LOSH]]. This volcano is constantly erupts--not lava--but a glowing crystalline fractal that constantly grows upwards with gracile boughs and terrific cracking sounds. Frequently, the higher branches collapse under their own weight and rain down the mountainside in radiant landslides. Rumor claims that a clan of magma-octopi live at it's heart.",,,
+
 13,12,,1312,Prismatic Mountains,CAGE OF LIGHT,,Arnold K.,"The [[CAGE OF LIGHT]]. This strange fortress is composed of glass, mirrors, and invisible walls. It is home to {{Prismax the Unblinking}}, his armies of laser-droids and prism-golems, and the 13 stolen wives of Urgis Khan.",,,Prismax the Unblinking
+
 13,13,,1313,Prismatic Mountains,OBSCENE MOUNTAINS,,Arnold K.,The [[OBSCENE MOUNTAINS]]. A mountain range seems to have sprouted forests of thrashing phalluses of prohibitive size. A tribe of <<cyclopean pygmies<< hold inscrutable but deep-seated religious beliefs about the these musculatures (trees? organs?) and will kill any female that looks upon them.,,cyclopean pygmies,
+
 14,03,,1403,Scrubland,THE BLACK ENGINE,,Arnold K.,"Blocking the narrow isthmus here is [[THE BLACK ENGINE]], an antediluvian war-machine of lightless anti-chromium. From its many screaming laser-maws, it shoots neon fractal dolphins and waves of edgeless sharp. The belongings from several rangers from Hex [[1303]] lie crushed underfoot, and the particulate remains of the rangers themselves clot its intakes.",,,
+
 14,08,,1408,Hills,PLEASURE DOME OF URGHIS KHAN,,Arnold K.,"The [[PLEASURE DOME OF URGHIS KHAN]] is now a cracked and gutted wreck of saunas and nymphariums. Insane pleasure droids and frenzied massage bots still stalk its darkened arcades. {{Wyglaf the Cyber-Eunuch}} still retains his mind, if not his body, and would reward anyone who could humble {{Sad Ivory}} the Sorceress Queen in Hex [[0902]].",,,Wyglaf the Cyber-Eunuch
+
 14,09,,1409,Hills,,,Arnold K.,"Broken droids and sparking appendages drag themselves to the center of this hex. Mechanical eels fly clockwise overhead, all emitting the same D minor chord. {{Teremach the Tesselator}} has almost completed his masterpiece.",,,Teremach the Tesselator
+
 14,10,,1410,Hills,CHRYSOLITE RACEWAY,,Arnold K.,"{{Lord Nichrome}}, a sentient hovercraft, challenges all newcomers to a race on his [[CHRYSOLITE RACEWAY]]. A loser forfeits a brain core sample (collected for sentimental purposes), but a winner obtains the services of {{Lord Nichrome}} himself for a year.",,,Lord Nichrome
+
 14,11,,1411,Sludge Forest,SEROTONIN,,Arnold K.,"Among the hallucinatory haze of the Sludge Forest, {{Lady Serotonin}} rules over the mid-sized village that shares her name. She has concocted a plot to marry the first suitable outsider she sees, but is hampered by the fact that she is an AI with only a single holo-projector attached to bulky server racks. She'd do anything to be human.",,,Lady Serotonin
+
 14,12,,1412,Prismatic Mountains,,,Jacob Hurst,"Much of this hex has been buried under the crystalline fractal eruptions of Ry-Losh. A malfunctioning servo-bot, living in an old missile silo and desperate to be loved by Lady Serotonin of Hex [[1411]], is trying to make her a human body. His attempts keep coming to life however and now guard the area as beautiful, scantily clad ""failures"".",,,
+
 14,13,,1413,Prismatic Mountains,,,David Brawley,These lonely and abandoned peaks are haunted by the echoes of past AI's that have degraded into madness.,,,
+
 15,03,,1503,Scrubland,USE-BA,,David Brawley,"This narrow land bridge is home to the dual port town [[USE-BA]]. The <<monopod gnomes<< who call this town home are very welcoming to those who come, and cold to those who want to leave without a promise to return.",,monopod gnomes,
+
 15,05,,1505,Grassland,NEW HAVEN,,Ed Hackett,"[[NEW HAVEN]]: heavy ray-shield dome blocks passage into this zone at every turn, the only access point is a heavily fortified way gate near the confluences of Hex [[1505]], Hex [[1605]], and Hex [[1606]]. The land here is highly arable and safe from various radiations and mutagens. The protector of this string of farms is {{Doctor Gordon}}, a brilliant-man that has invented a generator that shields this region from most dangers. On good trading terms with [[USE-BA]] in Hex [[1503]].",,,Doctor Gordon
+
 15,06,,1506,Grassland,,,Jacob Hurst,Starjackals prowl through the yellowblade windsong grass that covers these plains.,,,
+
 15,09,,1509,Sludge Forest,,,Jacob Hurst,The caps of the giant mushrooms forest here resemble abstract windows of stained glass and color all light that enters the hex. {{Cacophonius the Sculptor}} lives in a small workshop among the shrooms where he blends the colored light of the forest with his collection of sounds to create sentient waveforms.,,,Cacophonius the Sculptor
+
 15,10,,1510,Sludge Forest,,,David Brawley,"The giant mushroom forest thins here, mostly due to the giant herd beasts that knock them down and eat them. They're nearly blind, very territorial, and can't turn once they start to charge.",,,
+
 15,11,,1511,Sludge Forest,,,Ed Hackett,The spindly humanoid creatures that make their home atop the giant mushrooms here are efficient hunters and sometimes make forays to the north (Hex [[1510]]) to take down the great charging beasts found there.,,,
+
 15,12,,1512,Prismatic Mountains,STAR ARK,,David Brawley,The ruins of a colossal [[STAR ARK]] are perched upon the top most peak. All around the ark are the various descendants of the alien planet that have managed to survive.,,,
+
 15,13,,1513,Prismatic Mountains,FROZEN PALACE,,David Brawley,"The {{Mighty Duck Wizard}}, last of the crew of the Star Ark resides in its [[FROZEN PALACE]] at the bottom of multiverse. Within the palace are crystal portals to infinite realms, and uncountable horrors. There is a 25% chance that the wizard is off relaxing at his beach house on the moon.",,,Mighty Duck Wizard
+
 16,02,,1602,Scrubland,,,Ed Hackett,"A camp of harmless mutants. They need medical supplies for 2 of their wounded. They haven't much to trade, but know how to bypass the terrible device in Hex [[1403]].",,,
+
 16,03,,1603,Scrubland,STONE VILLAGE,,Arnold K.,The [[STONE VILLAGE]]. All living things (incl. grass) seem to have turned to stone in this village (or sculpture). Psychomancer bandits and their electric horses hide among the ruins.,,,
+
 16,04,,1604,Scrubland,,,Jacob Hurst,The {{Glass Oracle}} sits amid stone spikes in the shadow of the scrub covered hills. She is guarded by smoke and fire butterflies.,,,Glass Oracle
+
 16,05,,1605,Grassland,,,Arnold K.,"This is where a (literal) time bomb was tested by {{Malach the Science Wizard}} in Hex [[1307]]. Ocular Dentata nest on the pillars of dust that have frozen in time, and scrap-blacksmiths smelt exotic ores in the heat from the perpetual explosion, now eight years old.",,,
+
 16,06,,1606,Grassland,PLAINS OF THE BURNED MEN,,Ed Hackett,"The [[PLAINS OF THE BURNED MEN]], a tribe of Neo-Neanderthals, worshippers of the Eternal Flame. The <<Burned Men<< want to take control over the time-stopped explosion in Hex [[1605]], but the smiths there are better equipped so they wait for the right time to reclaim their God made manifest. (This is not their God, just a convenient coincidence).",,Burned Men,
+
 16,07,,1607,Grassland,LAKE MEROEE,,Jacob Hurst,[[LAKE MEROEE]] flows eternally through the shattered grasslands and into the star filled void in great cascading sheets of ice. Mirrorscale sahuagin guard its shores and the secrets of the eternal spring at the heart of the lake.,,,
+
 16,09,,1609,Sludge Forest,BEBOTROPOLIS,,Arnold K.,"Slug-riding knights with laser lances guard a giant mouth set into the ground, itself part of a huge subterranean creature called {{Bebop}}. Enemies are swallowed and die in acid, while friends are swallowed into [[BEBOTROPOLIS]], a tiny utopia rich that trades in secrets, titles, and recipes.",,,Bebop
+
 16,10,,1610,Sludge Forest,,,Jacob Hurst,"A tribe of waxlings, secretly controlled by <<Priests of Set<<, farm the psychotropic spores of the fungal forest.",,Priests of Set,
+
 16,11,,1611,Sludge Forest,,,Arnold K.,"The eponymous Sludge Dragon wallows in a particularly viscous slime pit in this branch of the [[SLUDGE FOREST]]. He hates everyone and everything, but is usually too lazy to exert himself.",,,
+
 16,12,,1612,Sludge Forest,,,David Brawley,The spindly humanoid creatures that make their home atop the giant mushrooms here worship and fear the Sludge Dragon of [[1611]].They feel the other tribe in [[1511]] are heretics for not not believing in the Sludge Dragon.,,,
+
 16,13,,1613,Prismatic Mountains,,,Ray Otus,"The tribes of metamorphic-homunculi who dwell here believe they are an ancient race of star-children whose ancestors came to Synthexia on the [[STAR ARK]] (see [[1512]]) and they are belligerent to anyone who says otherwise. In truth, they were created and then ""discarded"" as useless servants by The Mighty Duck Wizard ([[1513]]).",,,
+
 17,01,,1701,Scrubland,PERSOPHELIX,,Ray Otus,"The endless and immaculate pleasure gardens of [[PERSOPHELIX]] are tended by hovering cypherskates whose ""beards"" of delicate pruning appendages incessantly groom the land, occasionally vivisecting an insensate reveler who has overindulged in the vibro-pools.",,,
+
 17,02,,1702,Hills,,,David Brawley,"Perfectly round pools of bubbling purple fluid dot the hills. It tastes like tar, is poisonous, and occasionally chunks of precious metals or gems float to the surface. Scavengers and hillmen defend their claims with great zeal.",,,
+
 17,03,,1703,Hills,,,Jacob Hurst,A tribe of nomadic cyclopian shepherds wander the idyllic hills and valleys of this hex. The fiber-silk wool of the sheep is prized throughout the multiverse.,,,
+
 17,04,,1704,Scrubland,,,Konstantin M,"A malfunctioning {{Mark V OGRE supertank}} has, for years, been running round in a circle here. Mostly out of ammo and delusional, it has adopted the samurai code and seeks help to be free of its ""curse"".",,,Mark V OGRE Supertank
+
 17,05,,1705,Grassland,THE CLOCKMAKER'S TOWER,,David Brawley,"The effects of the time bomb in [[1605]] ripple outward, causing a 25% chance every round/turn that 1) any action taken is repeated 2) No action can be taken 3) the person disappears for 1d4 rounds 4) the individual is hasted 5) the individual ages a year 6) the individual grows a year younger 7) 1d3 out of sync versions appear 8) DMs choice. [[THE CLOCKMAKER'S TOWER]] stands in the center of the effect, trying to learn to harness it.",,,
+
 17,08,,1708,Sludge Forest,,,Konstantin M,"This entire peninsula grows, like a tumor, from the forest out into space. Insect-Men with poisoned hive-minds and giant mounts seem compelled to defend it. Soon it will touch Hex [[1908]], where the Techno-Vampire Counts prepare frantically and launch occasional aerial raids.",,,
+
 17,10,,1710,Sludge Forest,,,David Brawley,"Large robots that are basically mouths on 2 feet chew their way through the dense mushroom growths, and the insectoids that live within them, trying in vain to prevent the growth from overtaking all.",,,
+
 17,11,,1711,Sludge Forest,[[FLESH PITS OF NERTOX]],,Jacob Hurst,The mushrooms here are actually complex illusions to cover the [[FLESH PITS OF NERTOX]]. Skeletal creatures wrapped in purple slime prowl the area.,,,
+
 17,12,,1712,Sludge Forest,SLURMON,,Chris Tamm,"Minute village of [[SLURMON]], where the people cannot see they are now fungal hybrids and believe other humans to be fakes. Fungus shamen here sell drugs, soup stock and erotic furniture.",,,
+
 17,13,,1713,Sludge Forest,SILENT BOG,,David Brawley,"The [[SILENT BOG]] is full of Magic Mushrooms and the dread {{Portal Witch}}. <br /><a href=""http://towerofthearchmage.blogspot.com/2010/01/magic-mushrooms.html"" class=""ot-anchor"" rel=""nofollow"">http://towerofthearchmage.blogspot.com/2010/01/magic-mushrooms.html</a>",,,Portal Witch
+
 18,01,,1801,Devastation,,,Joey Lindsey,"Modular creatures made of stone tend the rough ground as if it were a garden, assembling huge beautiful stone arrangements. They can rearrange and trade body parts with each other at will, sometimes forgetting that visitors can not.",,,
+
 18,02,,1802,Scrubland,,,Chris Tamm,A huge plasticrete vault entrance to a ruined factory complex. Remains of crashed attacking fighter craft and defenses are guarded by mutant cyborgs who hopelessly dream of resurrecting past glory days.,,,
+
 18,03,,1803,Hills,,,Joey Lindsey,"Satyrs train dim-witted Centaurs to herd even dimmer-witted sheep-people. They are all using laser guns, light swords, radio communicators, and other remnants of high military technology as mundane everyday tools, not imagining them as weapons.",,,
+
 18,04,,1804,Hills,,,Chris Tamm,"Crashed space ark being repaired by nanogolems. Metalic purple jewel encrusted dinosaurs dwell here now, some with lazer eyes.",,,
+
 18,05,,1805,Hills,,,Matthew Baron,The vat-brain AI that controlled the crashed space ark in Hex [[1804]] is slowly migrating south to the void (1-5) to end it's pain-filled existence or (6) to mate with the void (!). As it passes it leaves a 1km-wide magenta-cyan-sparkly slime trail that causes random genetic re-combinations if touched.,,,
+
 18,06,,1806,Scrubland,CORUSCATING CARNIVAL,,Arnold K.,"{{The Jacksonian}} and His Amazing [[CORUSCATING CARNIVAL]] exhibit wonders of superscience while selling fireworks, jetpacks, and 44 anthrophages that have been transformed into kittens. The Jacksonian is already constructing viewing platforms for when the the vat-brain in Hex [[1805]] plummets into the void, and has already sold many tickets to the ""Suicide of the Century"".",,,The Jacksonian
+
 18,11,,1811,Sludge Forest,,,Arnold K.,Eighty-one forlorn mushroom men search for their wives and memories amid unmitigated squalor.,,,
+
 18,12,,1812,Sludge Forest,,,Jacob Hurst,The powerful rakshasa {{Delo}} dwells atop a ring of giant yellow mushrooms in a series of sumptuously appointed (and garishly colored) yurts. If you can impress his succubi and incubi courtesans he might reveal the secret of the Starpool.,,,Delo
+
 18,13,,1813,Sludge Forest,,,David Brawley,"An Anubian hunting pack from Hex [[1912]] is making their way around to raid the village of [[SLURMON]] in Hex [[1712]], and hoping to avoid the rakshasa's minions from Hex [[1812]].",,Anubians,
+
 19,01,,1901,Devastation,,,Ray Otus,"The earth's crust here is thin, cracked in roughly hexagonal patterns with occasional missing pieces through which the void may be seen. Insectoid constructs prowl the underside of this land, occasionally popping up through a hole to swarm travelers and strip them of all inorganic materials.",,,
+
 19,02,,1902,Devastation,,,Arnold K.,"{{Kilgore Crimegod}}, the legendary cyclops crystalsmith who replaced his eye with a small portal, has made the sober, informed decision to go mad. Before he does that, though, he wants to make one last crystal sword, but he will need help to do so. His family rides jewelled dinosaurs from Hex [[1804]].",,,Kilgore Crimegod
+
 19,03,,1903,Hills,,,Jacob Hurst,"Geodesic spheres 1000' in diameter dot the hills in this area. Some pulse with light, some pulse with dark and a race of three legged humanoids are said to play a game with them.",,,
+
 19,04,,1904,Hills,,,Jacob Hurst,Continual wind and sandstone valleys. Silver feathered harpies and robo-basilisks.,,,
+
 19,05,,1905,Hills,HOVERBOARD RACETRACK,,Arnold K.,"Watching the Hoverboard Races was once a favored indulgence of {{Sad Ivory}} the Sorceress Queen, but neglect has cracked the ceramic curves and choked the access tunnels with dead leaves. However, the degenerate, carnivorous androids of the area maintain disarming smiles, glib voices, and a few functional hoverboards that they use to chase down prey. The name of {{Lord Nichrome}} causes them to fall to their knees, mewling and begging in abject terror.",,,
+
 19,06,,1906,Scrubland,,,Arnold K.,"A crumbling, elevated highway serves as the only safe path through this hex, although glitter harpies nest upon it. Packs of howling turboghouls (&quot;<a href=""http://vaultsofnagoh.blogspot.com/2012/06/bestiary-of-vaults-turboghouls.html"" class=""ot-anchor"" rel=""nofollow"">http://vaultsofnagoh.blogspot.com/2012/06/bestiary-of-vaults-turboghouls.html</a>&quot;) kill anything on the ground.",,,
+
 19,08,,1908,Devastation,,,Joey Lindsey,"Perilous rope bridges connect the peaks here; if anyone has seen the ground below the hazy mist, they are lying or mad. Tiger-men with bulging muscles have a complex culture of honor and consider death a blessing, and wrestling until the opponent is thrown off a cliff fine sport.",,,
+
 19,11,,1911,Starfruit Mountains,ASTROTOPIA,,Arnold K.,"[[ASTROTOPIA]], the lost city of Urghis Khan, has fallen into ruin. A disgraced baron from The [[CRYSTAL METROPOLIS]] has begun launching forays into the underground, and has even enslaved the dead Khan's famous pet: the laser phoenix.<br /><br />&quot;<a href=""http://goblinpunch.blogspot.com/2013/07/gengrilaa-lost-city.html"" class=""ot-anchor"" rel=""nofollow"">http://goblinpunch.blogspot.com/2013/07/gengrilaa-lost-city.html</a>&quot;",,,
+
 19,12,,1912,Starfruit Mountains,ANUBIAN'S VILLAGE,,David Brawley,"The [[ANUBIAN'S VILLAGE]] is hidden in the caves beyond the lush starfruit forest. They worship the laser phoenix as a messenger of the gods, and fear the attention of the rakshasa from Hex [[1812]].",,Anubians,
+
 19,09,,1909,Devastation,VALLEY OF SHADOWLESS DEATH,,Matthew Baron,"Pilgrims to the [[VALLEY OF SHADOWLESS DEATH]] pray fruitlessly to the thunder gods for rain. The crystal sorceress (&quot;<a href=""http://genealogyreligion.net/wp-content/uploads/2011/05/Gozer-the-Gozerian.jpg"" class=""ot-anchor"" rel=""nofollow"">http://genealogyreligion.net/wp-content/uploads/2011/05/Gozer-the-Gozerian.jpg</a>&quot;) lures the most penetent to the top of the valley with her languid screams of forgiveness, whereupon she picks them off one-by-one with her lazerbeam eyes.",,,
+
 19,13,,1913,Devastation,CRYSTAL ARCHIVES,,Jacob Hurst,Librarian drones scavenge the ruins of the [[CRYSTAL ARCHIVES]] and attempt to interface with every scrap of organic and inorganic material they can. {{Scrollfire the Celibate}} maintains a small hermitage here and is said to be able to download information from the drones.,,,Scrollfire the Celibate
+
 20,01,,2001,Devastation,,,David Brawley,A large black monolith stands amidst the center of the devastation. Enhanced killer apes roam the landscape and fear a glowing red star off in the void.,,,
-20,02,,2002,Devastation,SPARKY'S CYBERNETICS CAFE AND LOUNGE,,Jacob Hurst,"[[SPARKY'S CYBERNETICS CAFE AND LOUNGE]] stands, apparently unscathed, amid the devastation. You're just as likely to fine an iridium haired flyboy, as you are a dwarven runesmith, or astronotica hypno-drone 3000 drinking and telling tales of glory at the bar.",,Pirates of the Void,
+
+20,02,,2002,Devastation,SPARKY'S CYBERNETICS CAFƒ AND LOUNGE,,Jacob Hurst,"[[SPARKY'S CYBERNETICS CAFƒ AND LOUNGE]] stands, apparently unscathed, amid the devastation. You're just as likely to fine an iridium haired flyboy, as you are a dwarven runesmith, or astronotica hypno-drone 3000 drinking and telling tales of glory at the bar.",,Pirates of the Void,
+
 20,03,,2003,Devastation,,,Arnold K.,"Jagged non-Euclidean peaks. The red star (that cannot be seen from anywhere except within this devastation) looms lurid and huge in the sky here. Ghosts of dead AIs babble machine code to burnt-out graftpunks and soulless dwarves, and a vile, subsonic hum causes nosebleeds.",,,
+
 20,04,,2004,Scrubland,,,Jacob Hurst,The bladebushes of the crystalline scrublands burn continually under the watchful eye of a tribe of tekno-goblinoids. The tribe's shaman have mastered the audible spectrum and their metallic blade drums are legendary.,,,
+
 20,05,,2005,Hills,,,Arnold K.,"Neon cyber-unicorns do wheelies across iridium hills and drink from springs of mercury. Their horns can cure any bug, malware, or corrupted file, but they only appear to virgin AIs.",,,
+
 20,06,,2006,Scrubland,,,Jacob Hurst,"An old speedway emerges from the devastation in Hex [[2007]] and runs for about three miles before terminating suddenly in an abandoned iridium strip mine. Scintillating ghosts guard the wreckage of a red pleasure craft, its tinted windows still dark after all these years.",,,
+
 20,07,,2007,Devastation,,,Chris Tamm,"A band of exotic land octopus electro bards dwell here, composing a new wave opera about the doom of Synthexia. They came here for the strange crystalline keyboards growing across the mountains, but some wonder if their art is imitating life or something stranger.",,,
+
 20,08,,2008,Devastation,,,Chris Tamm,{{Tamazan}} the crystal lich and his psychotronic vapor elementals are here disguised as a little girl with seven kittens. They search the broken shadow lands for the crystal coffin of the undead astro warlock's dead wife.,,,Tamazan
+
 20,09,,2009,Devastation,,,Ray Otus,"Here at the edge of Synthexia, wily cyrens have been programmed to lure organic life forms into the void at the end of each sixyear. A steady stream of greater and lesser creatures can be observed chasing alluring phantasms eastward. Who programmed these deadly singers of illusion? What purpose does this lemming-like plunge into the void serve?",,,
+
 20,10,,2010,Devastation,,,David Brawley,"The devastation is reaching across the void, trying to reach toward Hex [[2012]]. Mutated creatures who are constantly in pain as their bodies twist and warp rend anything that's ""normal"" in utter hatred.",,,
+
 20,12,,2012,Devastation,GRINDOLIX,,Ray Otus,"[[GRINDOLIX]], a city formerly over-shadowed by the now-fallen [[ASTROTOPIA]] (see Hex [[1911]]) has lost its chief rival and therefore its will to compete for greatness. Its aromatric artists produce nothing but derivative smells and androrators stand on marble dais, droning on about abstract nothings.",,,
+
 20,13,,2013,Devastation,,,Jacob Hurst,"Three glass ziggurats stand in the devastation guarded by phantasmal oozes and mini goblins wearing iron boxing gloves. They are said to protect, or point the way to the sacred diamond pulsar.",,,
+
