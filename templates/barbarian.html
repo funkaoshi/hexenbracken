@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}The Kingdom of Argeld{% endblock %}
+
+{% block linkcolor %}#3BB046;{% endblock %}
+
+{% block extracss %}
+#hexmap {
+    margin-left: -195px;
+    border: 3px solid black;
+}
+h1, h2, h3, h4 {
+    color: #2E7745;
+}
+{% endblock %}
+
+{% block header %}
+<h1>The Kingdom of Argeld</h1>
+
+<div id="introduction" class="write-up">
+    <p>The Honest Brother Knights of the Temple of Saint Cindilla. The Schatzenhemers Gang. The Clown Guild. Valentinis, Dapper Frogmen Gangsters. A Butcher's Boy. A Poulticer. A Scribe. A Frog. Some adventure.</p>
+</div>
+
+<h2>A Map of the Kingdom of Argeld</h2>
+<img id="hexmap" src="barbarian.png" alt="The Kraal" usemap="#hexenmap">
+{% endblock %}
+
+{% block footer %}
+<div id="about" class="write-up">
+    <h2>About this Project</h2>
+    <p>Based off the work I did for <a href="http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/">The Hexenbracken</a>, this is the current wilderness of the shared game being run by my friends and I in Toronto. A bunch of <a href="https://github.com/funkaoshi/hexenbracken">Python code</a> turns a <a href="https://docs.google.com/spreadsheets/d/1IWhom7MIVIscN2ZEqM3UVsypCJLqWQOm1B7le4br9RM/edit#gid=1874553969">Google Spreadsheet</a> into the page you see.</p>
+</div>
+{% endblock %}

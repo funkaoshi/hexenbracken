@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}The Lavender Marshes{% endblock %}
+
+{% block linkcolor %}#3B62B0;{% endblock %}
+
+{% block extracss %}
+#hexmap {
+    margin-left: 20px;
+}
+{% endblock %}
+
+{% block header %}
+<h1>The Lavender Marshes</h1>
+
+<div id="introduction" class="write-up">
+    <p>South of the mountain range made famous by the Faithless Twins lays The Lavender Marshes, home to wasp-women, tar-men, and savages, who all make their homes in the ruins and decay of a once advanced civilization.</p>
+</div>
+
+<h2>A Map of the Marshes</h2>
+<img id="hexmap" src="hexkit.png" alt="The Kraal" usemap="#hexenmap">
+
+{% endblock %}
+
+{% block footer %}
+<div id="about" class="write-up">
+    <h2>About this Project</h2>
+    <p>I am part of the beta for <a href="https://www.kickstarter.com/projects/cecil-howe/hex-kit">HexKit</a>, and decided to make a small hex map I could use for my Carcosa game. I posted the thing on Google+ and <a href="https://plus.google.com/+RamananS/posts/ZqGuLkPUZ1h"asked for help filling in the hexes</a>. My people came through. This page is based on work I did for the <a href="http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/">Hexenbracken</a>. Contributors: {{ authors }}.</p>
+</div>
+{% endblock %}
