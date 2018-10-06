@@ -76,4 +76,3 @@ class HexMap(object):
     @property
     def themes_histogram(self):
         return make_histogram(self.themes)
-
