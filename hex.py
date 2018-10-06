@@ -1,4 +1,5 @@
 import argparse
+import csv
 import os
 import re
 import string
@@ -6,7 +7,6 @@ import sys
 
 import jinja2
 
-import utfcsv
 import hexmap as hm
 
 parser = argparse.ArgumentParser()
@@ -24,17 +24,17 @@ elif args.fmt == 'text':
 
 # Read CSV dump of Google Docs hex map descriptions and create hexmap of
 # the data.
-with open(args.CSV, 'rb') as csvfile:
-    hexmap = hm.HexMap(utfcsv.unicode_csv_reader(csvfile))
+with open(args.CSV, encoding="utf-8") as csvfile:
+    hexmap = hm.HexMap(csv.reader(csvfile, dialect=csv.excel))
 
 
 if args.fmt == 'stats':
-    print 'Most referenced Hexes:'
+    print('Most referenced Hexes:')
     for l, count in hexmap.reference_histogram[-10:]:
-        print "\t%s mentioned %d times" % (l, count)
-    print 'Themes found in hexes:'
+        print("\t%s mentioned %d times" % (l, count))
+    print('Themes found in hexes:')
     for l, count in hexmap.themes_histogram:
-        print "\t%s mentioned %d times" % (l, count)
+        print("\t%s mentioned %d times" % (l, count))
     exit(0)
 
 
@@ -131,4 +131,4 @@ context = {
     'title': args.Title
 }
 
-print template.render(**context).encode('utf-8')
+print(template.render(**context))

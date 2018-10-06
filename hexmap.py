@@ -18,7 +18,7 @@ class Hex(object):
         self.settlement = settlement.upper().strip()
         self.themes = [t.upper().strip() for t in themes.split(',')]
         self.author = author
-        self.description = description or '-'.encode('utf-8')
+        self.description = description or '-'
         self.url = url
 
 
@@ -51,13 +51,13 @@ class HexMap(object):
 
         # Yank out all the authors
         self.authors = [d.author
-                        for l, details in self.hexes.iteritems() for d in details
+                        for l, details in self.hexes.items() for d in details
                         if d.author]
         self.author_histogram = collections.Counter(self.authors)
 
         # Yank out all references
         self.references = collections.defaultdict(set)
-        for l, details in self.hexes.iteritems():
+        for l, details in self.hexes.items():
             for d in details:
                 for m in re.finditer(r"\[\[(\d\d\d\d)\]\]", d.description):
                     if l != m.group(1):
@@ -76,4 +76,3 @@ class HexMap(object):
     @property
     def themes_histogram(self):
         return make_histogram(self.themes)
-
