@@ -15,11 +15,11 @@ under the `hexmaps` folder.
 
 Usage:
 1. You need to create a jinja template. As long as you stick to the proper .csv
-   format, you should be able to just copy any template html file from the templates
+   format, you should be able to just copy the base.html template from the templates
    folder into a new template, the same name as the .csv file (and eventually the
    html page itself):
    
-   cp templates/hexenbracken.html templates/[NAME].html
+   cp templates/base.html templates/[NAME].html
 
 2. Then you can run the following through in unix bash (I used git bash):
 
