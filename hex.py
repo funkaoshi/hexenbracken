@@ -1,4 +1,5 @@
 import argparse
+import csv
 import os
 import re
 import string
@@ -6,7 +7,6 @@ import sys
 
 import jinja2
 
-import utfcsv
 import hexmap as hm
 
 parser = argparse.ArgumentParser()
@@ -24,17 +24,17 @@ elif args.fmt == 'text':
 
 # Read CSV dump of Google Docs hex map descriptions and create hexmap of
 # the data.
-with open(args.CSV, 'rb') as csvfile:
-    hexmap = hm.HexMap(utfcsv.unicode_csv_reader(csvfile))
+with open(args.CSV) as csvfile:
+    hexmap = hm.HexMap(csv.reader(csvfile))
 
 
 if args.fmt == 'stats':
-    print 'Most referenced Hexes:'
+    print('Most referenced Hexes:')
     for l, count in hexmap.reference_histogram[-10:]:
-        print "\t%s mentioned %d times" % (l, count)
-    print 'Themes found in hexes:'
+        print("\t%s mentioned %d times" % (l, count))
+    print('Themes found in hexes:')
     for l, count in hexmap.themes_histogram:
-        print "\t%s mentioned %d times" % (l, count)
+        print("\t%s mentioned %d times" % (l, count))
     exit(0)
 
 
@@ -45,7 +45,7 @@ def settlementlink(m):
     # exists.
     settlement = m.group(1).upper().strip()
     if settlement in hexmap.settlements:
-        return u"<a href='#{hex}' class='city-link'>{settlement}</a>".format(
+        return "<a href='#{hex}' class='city-link'>{settlement}</a>".format(
                 settlement=settlement, hex=hexmap.settlements[settlement])
     return settlement
 
@@ -64,9 +64,9 @@ def hex2link(text):
 def getreferences(h):
     # return references for this hex.
     if h in hexmap.references:
-        return u', '.join("<a class='hex-link' href='#%s'>%s</a>" % (l, l)
+        return ', '.join("<a class='hex-link' href='#%s'>%s</a>" % (l, l)
                           for l in sorted(hexmap.references[h]))
-    return u''
+    return ''
 
 def coordinates(location):
     return int(location[:2]), int(location[2:])
@@ -125,10 +125,10 @@ template = env.get_template(template_name)
 
 context = {
     'hexes': sorted(hexmap.hexes.items()),
-    'authors': u", ".join("%s (%s)" % (author, count)
+    'authors': ", ".join("%s (%s)" % (author, count)
                           for author, count in hexmap.author_histogram.most_common()),
     'references': hexmap.references,
     'title': args.Title
 }
 
-print template.render(**context).encode('utf-8')
+print(template.render(**context))
