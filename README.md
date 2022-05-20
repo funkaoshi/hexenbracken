@@ -1,6 +1,9 @@
 The Hexenbracken
 ============
 
+NOTE 5/20/2022:
+First forked this from Funkaoshi way before I actually knew how to code and dealing with some legacy issues. Probably I'd need to start over to make whatever changes I'd want to make correctly, although it looks like the issues I was attempting to address have been addressed anyway.
+
 NOTE 10/5/2018:
 This version has been modified by Max Cantor and has been adapted for python3.
 hex.py and hexmaps.py have been altered, and utfcsv.py is now obsolete. 
