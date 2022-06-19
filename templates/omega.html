@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Astral Marines - Partol Sector Omega{% endblock %}
+
+{% block extracss %}
+h1, h2, h3, h4 { color: #f5a228; }
+a, .hex:hover .location a.permalink { color: #d89014; }
+img#hexmap { margin-left: -20px; }
+{% endblock %}
+
+{% block header %}
+<h1>Astral Marines - Partol Sector Omega</h1>
+
+<div id="introduction" class="write-up">
+    <p>Patrol Sector Omega has its intrusions and enemy action, but it's not hot.  The Firebase is just precautionary, and it's close enough to the LZ that resupply will never be a problem.  The  moss beds are splendid at sunset and the Lotus Eaters nearby are pacified.  Just play some volleyball and relax.  The same can't be said to the North - the glass Pyramids and Stilt Village are shown as friendly on the recon slides, but then what shot down a cutter that way a few cycles back?  Something's brewing and the invaders can be behind every slime mold, invisible in spider holes beneath the moss or infiltrating the pacified villages, concealed by their crudely potent magics.</p>
+</div>
+
+<h2>Astral Marines - Partol Sector Omega</h2>
+<img id="hexmap" src="omega.jpg" alt="Astral Marines - Partol Sector Omega" usemap="#hexenmap">
+{% endblock %}
+
+{% block footer %}
+<div id="about" class="write-up">
+    <h2>About this Project</h2>
+    <p>Gus posted this map on Google+ and <a href="https://plus.google.com/113442337943907897939/posts/FHYCS8SzQ1u">asked for help filling in the hexes</a>. This page is based on work I did for the <a href="http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/">Hexenbracken</a>. Contributors: {{ authors }}.</p>
+</div>
+{% endblock %}
