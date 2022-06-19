@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}The Scorched Coast{% endblock %}
+
+{% block extracss %}
+h1, h2, h3, h4 { color: #f5a228; }
+a, .hex:hover .location a.permalink { color: #d89014; }
+img#hexmap { margin-left: -172px; }
+{% endblock %}
+
+{% block header %}
+<h1>The Scorched Coast</h1>
+
+<div id="introduction" class="write-up">
+    <p>Life in the Scorched Coast has risen from the ashes of the Great Burn. Its form is odd and twisted: scrappy human survivors and those who became something more or less, archaoetech wizards, relic-intelligences, and slumbering powers unimaginable. Now they scour the desert dust for treasures of a bygone era.</p>
+</div>
+
+<h2>Map of the Scorched Coast</h2>
+<img id="hexmap" src="fists.png" alt="" usemap="#hexenmap">
+{% endblock %}
+
+{% block footer %}
+<div id="about" class="write-up">
+    <h2>About this Project</h2>
+    <p>I helped the mysterious mista tipsta and his friends turn their own attempt at a crowd sourced hexcrawl into a web page. As one does. This page is based on work I did for the <a href="http://save.vs.totalpartykill.ca/grab-bag/hexenbracken/">Hexenbracken</a>. Contributors: {{ authors }}.</p>
+</div>
+{% endblock %}

@@ -1,0 +1,412 @@
+X_index,Y_index,,Hex Key,Terrain,Feature,,Author,Description,URL,"Themes (eg ""Alienation"", ""Hope"", or ""Coming of age"".)"
+01,01,,0101,Rocky Desert,,,Ellardin,"A gazebo, painted white and red.",,"Hopelessness, Futility"
+01,02,,0102,Rocky Desert,,,Ellardin,A hidden hole in the ground will reveal a hidden underground alcove. Within the hole will be several trees that do not need sunlight and give peach fruit.,,"Fertility, secret refreshment"
+01,03,,0103,Rocky Desert,,,,"An obvious tube sticks up out of the ground. This is bait, two halflings and one elf thieves are waiting in a camouflaged hole nearby to detonate a weak explosive in the tube, and make off with something in the smoke and confusion.",,
+01,04,,0104,Rocky Desert,,,Ellardin,The fossilized remains of a unicorn are fused with the rocks here.,,
+01,05,,0105,Rocky Desert,,,,,,
+01,06,,0106,Sandy Desert,,,tipsta,10' wide pit. Does not have a bottom.,,
+01,07,,0107,"Sandy Desert, Ruined Farmland, Upwind of Fallout",Greenspring,,KusoDM,Village with high tendency of mutants. Still valuable because of deep-ground spring. Occasional outbreak of zombies and sentient corn.,,Sudden Weirdness
+01,08,,0108,Irradiated Wastes,,,,,,
+01,09,,0109,Irradiated Wastes,Atomic Dragon,,Stagehand (mashing ideas from Discord),"
+A dragon, with a heart of nuclear fire, fell from the stars here and turn this reas and the lands near it into wastes. It now recovers inside the ruins of an enormous tower of stone and metal. Pilgrims from [[Radio City]] and [[Greenspring]] leave offerings and worship the dragon.
+",,"post-apocalyptic dragon lair
+fallen/crippled gods
+slumbering threats"
+01,10,,0110,Irradiated Wastes,,,The_VolV,"Radiation Zombies shamble around, they are different from normal zombies, Can't be turned",,"Unexpected, Horror"
+01,11,,0111,Irradiated Wastes,Mutant Shanty Town,,PastamanXIV,A gigantic meteor with a huge deposit of iron is mined by mutants. Its crater is massive and its arrival brought earthquakes.,,
+01,12,,0112,Sand Dunes,Tricerions,,Teh_Az,"A tribe of wandering Tricerions (upright, true-sized, anthropomorphic Triceratops) are encamped here for the week, and will soon embark on their nesting journey to [[0820]]. They wield stone tools and can breath fire.",,"Sword & Sorcery, Familiar Alien Denizens, Sword & Sandal Adventures"
+01,13,,0113,Sand Dunes,,,,,,
+01,14,,0114,Sand Dunes,,,The_VolV,"A market place ruled by the ancient ice drinking dispenser, who found out its ability to make corrosive Oozes of several different tastes. Every other appliance in the store is terrified of it.",,"Tyranny, AI"
+01,15,,0115,Sand Dunes,,,,,,
+01,16,,0116,Sand Dunes,,,,,,
+01,17,,0117,Sand Dunes,,,Ellardin,An abandoned hut with odd totems and parchments with dried herbs hanging from the ceiling.,,
+01,18,,0118,Sand Dunes,,,,Mark of [[The Prophet]]. Painted on an old era roadsign is a PC's dark secret.,,
+01,19,,0119,Sand Dunes,,,The_VolV,"There seems to be a several high tech cannons pointing to the sky, they seem to be non functional.",,Super Science
+01,20,,0120,Sand Dunes,,,,,,
+02,01,,0201,Rocky Desert,,,Ellardin,A band of wild horses makes this place their home.,,Calm wilderness
+02,02,,0202,Rocky Desert,Thunder City,,Della,"Sun-baked ruins of an ancient metropolis of stone and metal towers, inhabited by scavenger orcs led by a powerful psion. They will trade only with those who bear their ""symbol of friendship"" (a piston carved to look like a skull), selling them relics for food and water.",,"Mad Max, but with orcs."
+02,03,,0203,Rocky Desert,The Witness,,The_VolV,"City outskirts. Home to The Witness, a now-retired former second-in-command to the psion in [[Thunder City]], though he is sometimes called back into action. Thunder City Orcs sometimes paint themselves silver in emulation of this warrior.",,"Mad Max, but with orcs."
+02,04,,0204,Rocky Desert,,,Sando,"A strange masked man of elongated limbs protects a fire that never seems to go out. His ruby-like glistening pupils always look at the party, independent of their position. If left alone, he gives the party a thumbs up.",,Ritournelle
+02,05,,0205,Rocky Desert,,,,"Offering of [[The Prophet]]. Heaps of stones are overgrown with flowers, one for each PC. Each pile has the prefered weapon of that PC carved. The heaps of dead PCs are completely withered, those of soon-to-be dead dry and dessicated.",,
+02,06,,0206,Sandy Desert,Thunderstone,,NovanIV,"A small village where they settle all disputes on the Thunderstone. They play an ancient children's card game on a mostly flat stone. Two men enter, one man dies.",,Card game anime
+02,07,,0207,Sandy Desert,,,,,,
+02,08,,0208,Irradiated Wastes,,,The_VolV,"An intelligent, alien pseudodragon with a nuclear-flame heart lairs here, envious of the true [[Atomic Dragon]].",,
+02,09,,0209,Irradiated Wastes,,,,,,
+02,10,,0210,Sandy Desert,Nomad Camps,,,Nomad tribes scavenging into the desert towards 0119. Avoids the dragon cultists at all cost.,,
+02,11,,0211,Sandy Desert,,,,,,
+02,12,,0212,Sandy Desert,,,,,,
+02,13,,0213,Sandy Desert,,,Ellardin,"12 Mountain Men are known to travel to this area, dressed in simple garb and wielding clubs/hammers.",,
+02,14,,0214,Sandy Desert,,,,"The barbarian/pleasure serving automaton, Bonk-X, is stuck upside down in sand. Will aid travellers that dig it out.",,
+02,15,,0215,Sandy Desert,,,,,,
+02,16,,0216,"Sandy Desert, Oasis",Mutating Oasis,,twocalf,"The waters of this oasis, while cool and refreshing, may cause mutations if they are consumed more than once per day. A tribe of Palm Trees looking over a small village of mutant farmers that tend to them, aling with groves of fig and olive trees.",,
+02,17,,0217,Sandy Desert,,,NovanIV ,This area and [[1420]] are the exact same place. There is a 50% chance that anyone traveling through these hexes come out the equivalent boarder on the other part of the map.,,
+02,18,,0218,Sandy Desert,,,,,,
+02,19,,0219,Sandy Desert,FrostBite,,The_VolV,"An ancient pyramid of the era before, with only one living inhabitant, [[FrostBite]], a scientist supreme who escaped defeat with a bunch of his minions. Right now he is in waiting, hoping to restore his army of melting ice constructs.",,Super Science
+02,20,,0220,Sandy Desert,,,,"Giant cylinders dot the area, some of them have pipes that lead to [[FrostBite]] Complex northward. There are some ice constructs around.",,
+03,01,,0301,Rocky Desert,,,,,,
+03,02,,0302,Rocky Desert,,,NovanIV ,"A large pile of stones sit at the end of the highway. If you squeeze them, they ooze blood. The [[Countachs of Lambo]] hunt down any who take them without first winning them in a race.",,
+03,03,,0303,Rocky Desert,,,,,,
+03,04,,0304,Rocky Desert,,,,,,
+03,05,,0305,Rocky Desert,,,Ellardin,A lush green island that floats in the air. Anyone who lays there may be enchanted and will not want to leave.,,
+03,06,,0306,Rocky Desert,,,,,,
+03,07,,0307,Rocky Desert,Portal to Torsh,,PastamanXIV,Among the ruins of a wizard's tower are many large reptilian footprints and a standing archway with a portal leading to Torsh (location R).,https://en.wikipedia.org/wiki/Portals_of_Torsh,
+03,08,,0308,Sandy Desert,,,,,,
+03,09,,0309,Irradiated Wastes,,,The_VolV,Protoplasmic ooze hides inside these ruins.,,Sticky Stuff
+03,10,,0310,Irradiated Wastes,Mutant Highway Taxers,,The_VolV,"A small base of mutants, protecting the highway. They tax anyone not devoted to the [[Atomic Dragon]] if they want to cross the highway.",,Religion
+03,11,,0311,Sand Dunes,,,,,,
+03,12,,0312,Sand Dunes,,,,,,
+03,13,,0313,Sand Dunes,,,,,,
+03,14,,0314,Sand Dunes,,,Ellardin,A roadside truck stop has been converted into an inn. A nice little comfy place to stay for a night or two. ,,
+03,15,,0315,Sand Dunes,,,,,,
+03,16,,0316,Sand Dunes,,,,,,
+03,17,,0317,Sand Dunes,,,,,,
+03,18,,0318,Sand Dunes,,,Stagehand,"During the day, a lifelike oasis mirage can be seen for miles. There is a 4/6 chance that travelers aiming to reach the [[Mutating Oasis]] end up moving in the direction of this hex instead.",,Deception
+03,19,,0319,Sand Dunes,The Stop Sign,,PastamanXIV,"Bands of nomads gather here every full moon for the ""Festival of Stopping"" around the stop sign. Festivities are held and pacts are made.",,
+03,20,,0320,Sand Dunes,,,The_VolV,An giant high tech metal windmill is here. It is still working.,,
+04,01,,0401,Rocky Desert,,,,,,
+04,02,,0402,Rocky Desert,,,Historian,"Hidden in the rocks, the entrance to a cave filled with ice and salt is jealously guarded by a four-armed man serpent. He charges a hefty price for his goods.",,Wealth
+04,03,,0403,Rocky Desert,,,,,,
+04,04,,0404,Rocky Desert,,,agent blue,"Farmlands formerly belonging to the denizens of [[Bell City]], abandoned because of dead soil and an infestation of rhinopedes.",,Man Vs. Nature
+04,05,,0405,Sandy Desert,Bell City ,,NovanIV ,A small community has formed around a surviving dining hall of the old world.  Residents work the land to try to make the full menu available.,,Cargo Cult 
+04,06,,0406,Sandy Desert,,,,,,
+04,07,,0407,Sandy Desert,,,,,,
+04,08,,0408,Sandy Desert,,,,,,
+04,09,,0409,Sand Dunes,,,,,,
+04,10,,0410,"Sand Dunes, Highway",,,Stagehand,Crumbling remnants of a highway overpass create an arching bridge down into wastelands of [[0310]]. Giant sandworm makes lair at the base of the overpass.,,Gateway
+04,11,,0411,Sandy Desert,,,,,,
+04,12,,0412,"Sandy Desert, Highway",,,,,,
+04,13,,0413,Sandy Desert,,,,,,
+04,14,,0414,"Sandy Desert, Shrubland",,,,,,
+04,15,,0415,"Sandy Desert, Shrubland",Cannibal Halflings,,The_VolV,"Cannibal Halflings roam these woods, unable to find their sustenance of five meals per day otherwise. They will see the PCs as a potential meal.",,Conflict
+04,16,,0416,"Sandy Desert, Shrubland",,,,"Desert knight roams the shrubs, cutting them down. Accuses travellers of planting shrubs.",,
+04,17,,0417,Sand Dunes,,,,,,
+04,18,,0418,Sand Dunes,,,,,,
+04,19,,0419,Sand Dunes,,,Ellardin,A single gravestone with a key engraved into the center of it is buried here.,,
+04,20,,0420,Sand Dunes,,,,,,
+05,01,,0501,Rocky Desert,,,,,,
+05,02,,0502,Rocky Desert,,,,An huge overturned metal carriage of the old era with the mark of the [[Dune Lady]]. The crew strewn dead around and being consumed by slimes. One heavy weapon can be salvaged from the interior.,,
+05,03,,0503,Rocky Desert,,,The_VolV,"An old gigantic indoor marketplace with everything. Images of the past world, usually comedic. Protected by segway hydras made of flesh and metal. If you take items without first giving them specific green papers they will attack. ",,Old World Lives.
+05,04,,0504,Sandy Desert,,,,,,
+05,05,,0505,Rocky Desert,,,,A single stone stands over a grave. If exhumed it reveals a human skeleton in a white robe-like coat with a plastic card attached to a breast pocket.,,Key to the past
+05,06,,0506,Rocky Desert,,,,,,
+05,07,,0507,Rocky Desert,,,NovanIV,"Cave filled with statues of varying quality; home to an aspiring sculptor medusa and her friend/agent, a blind elf who will pay for quality stone. Her works are accused of being petrified people; 1/6 sculptures are petrified, but they will be honest if questioned.",,
+05,08,,0508,Sandy Desert,,,agent blue,"A deep, glowing crater several miles in circumference dominates this area. When the sun is high overhead, passerby can see more than just their reflections in the protruding glass-like shards.",,Ghosts of the past
+05,09,,0509,Sandy Desert,,,twocalf,"Ruins of the town of Agua Fria, its well still cold and fresh.  Haunted by the ghost of Tejas Red, he shoots anyone in town from 11am to Noon everyday.",,"BIG IRON, BIG IRON"
+05,10,,0510,"Sand Dunes, Highway",,,,,,
+05,11,,0511,"Sandy Desert, Highway",Sons of Belmont,,twocalf,"HQ of the Sons of Belmont MC, a leather wearing, silver chain whip wielding gang who ride mechanical steeds powered by holy water are based out of the ruins of an old cathedral.  They vow to hunt the Countachs of Lambo.",,
+05,12,,0512,Sandy Desert,Radio City,,The_VolV,"A  settlement of mutants live here, most of them Worshipers of the [[Atomic Dragon]]. They protect the access to the highway, which is the safest way to travel to the atomic heart. If a random encounter result is non-flying, ignore it.",,"Civilization, Religion"
+05,13,,0513,Rocky Hills,,,,,,
+05,14,,0514,Rocky Hills,Ruined Observatory,,PastamanXIV,"This old observatory is used as temporary shelter by nomads. [[Yormites]] have been spotted here, the reason for their presence is unknown. The equipment of the observatory is surprisingly still functional.",,
+05,15,,0515,Rocky Hills,,,,,,
+05,16,,0516,"Sandy Desert, Shrubland",,,Sando,"Forest of chalk white trees look like clouds dripping down to the sand. After 6 hours in this area, they start hearing voices of their fallen friends. Hallucinations worsen every 6 hours. 1/6 of failing to leave the forest, +1 for subsequent 6 hours.",,Introspection
+05,17,,0517,"Sandy Desert, Shrubland",,,,,,
+05,18,,0518,"Sandy Desert, Shrubland",Hidden Orchard,,PastamanXIV,"Humans of this town live off the forest of [[0516]] and [[0617]] and also hunt the [[Cannibal Halflings]]. They hold a grudge with the folks of  0918, refusing to trade with them and plotting their demise. They hate mutants. Excellent cache of weapons.",,"Intolerance, Genetic Purity"
+05,19,,0519,Sand Dunes,,,,,,
+05,20,,0520,Sand Dunes,,,,,,
+06,01,,0601,Rocky Desert,,,,,,
+06,02,,0602,"Sandy Desert, Highway",,,,"Soldiers of the [[Dune Lady]] hold the road here, and exact a toll on travellers.",,
+06,03,,0603,Sandy Desert,,,NovanIV ,"Ancient Ruins, The Baja Blaster is often seen coming and going with supplies for [[Bell City]]. No one else who has entered has returned.",,
+06,04,,0604,Rocky Hills,,,,,,
+06,05,,0605,Rocky Desert,,,,,,
+06,06,,0606,Rocky Desert,,,NovanIV,"A two headed cyclops (right head claims that makes it a Biclops) lives here. The right head is named Proton, and the left Electron, they spend 66% of the time hunting in neighboring hexes and 100% bickering with each other.",,
+06,07,,0607,Rocky Desert,,,,,,
+06,08,,0608,Sandy Desert,,,,,,
+06,09,,0609,Sand Dunes,Ant-Men Hive,,The Dice Must Roll,Small dungeon where ant-people live,,Bio-weapons
+06,10,,0610,Sand Dunes,Nomad Camps,,PastamanXIV,"Mutated nomads make their camp here to trade with the ant-people. [[Yormites]] will appear here from time to time, interested in the Ant-people.",,
+06,11,,0611,Sandy Desert,,,,,,
+06,12,,0612,Sandy Desert,,,twocalf,Veins of rock salt just below the surface. 2/6 chance that there will be salt miners there.,,
+06,13,,0613,Rocky Hills,,,,"Piled stone forms an unsteady pyramid with red and yellow banners flapping from sticks stuck in, known as the Shrine to [[The Prophet]]. The banners tell, in Morse code, the name of a random PC's enemy and it's current location.",,
+06,14,,0614,Rocky Hills,,,,,,
+06,15,,0615,Rocky Hills,,,,,,
+06,16,,0616,"Sandy Desert, Shrubland",,,Historian,"Gibbets sway in a dry wind. Sun-bleached bones are scattered on the dead earth. Metal cages stand open, a few trinkets left behind.",,Melancholy
+06,17,,0617,"Sandy Desert, Shrubland",,,,,,
+06,18,,0618,Sandy Desert,,,,,,
+06,19,,0619,Sandy Desert,,,KusoDM,"A vault that long ago belonged to an elvish automaton creator long. He hid himself to get away from his annoying family and people trying to kill him. After his death, the mushrooms he grew inside the vault have become partially sentient.",,Mold and Fungi- The Airborne Killers
+06,20,,0620,Sand Dunes,,,Stagehand,"A small metallic corner pokes out from beneath the dunes. Excavation reveals a delicate latticework structure similar to a coffin, cold to the touch. Inside can be seen an elven woman clasping a small device. It is unclear if she is dead or asleep.",https://vignette2.wikia.nocookie.net/yamato/images/d/dc/SASHA_2.jpg/revision/latest/scale-to-width-down/640?cb=20140108181326,
+07,01,,0701,Rocky Desert,,,,,,
+07,02,,0702,"Sandy Desert, Highway",Countachs of Lambo,,twocalf,"The Countachs of Lambo stalk this region of the desert at night, racing blood-fueled demon-machines in screaming neon blurs. During the day they rest underground in mausoleums. Each engine is a work of demonic art.",,
+07,03,,0703,Sandy Desert,,,,"Magnetic disturbance, growing stronger towards the center of this area. Inside a concrete hut a magnetic field suspends a cursed suspends in the air.",,
+07,04,,0704,Rocky Hills,,,The_VolV,"8 bandits in a dune boat. 7 of them are young and taking the boat for the first ride, one of them is a day away from retirement.",,
+07,05,,0705,Rocky Hills,,,,,,
+07,06,,0706,Rocky Desert,,,,Small tribe of human barbarians. Tributaries of the [[Dune Lady]].,,
+07,07,,0707,Rocky Desert,,,,,,
+07,08,,0708,Sandy Desert,Finger Point,,tipsta,"Happy little town. Markets, farms, and relic traders. Sage leader who knows many secrets of The Scorched Coast.",,Fresh Start
+07,09,,0709,Sand Dunes,,,,,,
+07,10,,0710,"Sand Dunes, Oasis",,,Stagehand,Oasis filled with rainbow-coloured water surrounded by twisted fruit-bearing killer plants. Fruit/water causes mutations with extended exposure or consumption; drowned mutant with d6 pieces of jewelry in water.,,"""Tradeoff"" - provisions for risk"
+07,11,,0711,Sandy Desert,,,NovanIV ,A former apprentice of [[FrostBite]] has set up a stand selling sugary semi-frozen drinks in this area.,,
+07,12,,0712,Sandy Desert,,,,,,
+07,13,,0713,Broken Lands,,,,,,
+07,14,,0714,Mountain,,,Ellardin,A tomb complex which holds the body of the Notorious False King.,,Chaos and Sacrifice
+07,15,,0715,Mountain,Small Camp,,Pastaman,"The hideout for a gang of thugs who assault travelers. They pretend to be guides, and will work in that capacity for their victims until camp, when they attack their clients.",,Mutants and Cults of Personality
+07,16,,0716,Rocky Hills,Yormite Teleporter South,,EsotericOdyssey,"At night, a [[Yormite]] spire rises from the sand. When a Yormite Difference-Gauntlet touches the spire, they (and anything touching them) are teleported to the identical [[Yormite Teleporter North]].",,
+07,17,,0717,Rocky Hills,,,,,,
+07,18,,0718,Rocky Hills,,,,,,
+07,19,,0719,Sandy Desert,,,twocalf,"Wreck of a legendary metal flying beast ""7777"" painted on it is sinking into the sands. Seven floor dungeon full of zombies, radiation, and old world tech and scrap. Every hour they PCs are inside there is a 2/6 chance of it sinking.",,
+07,20,,0720,Sandy Desert,,,,,,
+08,01,,0801,Sandy Desert,,,Historian,"The old road terminates here, swallowed by a great stone mouth that reveals a concrete tomb. Ancient coffins of the [[Countachs of Lambo]] can be found in the lower layers, and murals on the walls depict strange and fascinating vistas.",,Works of ancient Art
+08,02,,0802,Rocky Hills,,,agent blue,"A strange tilted building juts out of the hills at an angle, as if the whole thing was displaced and dropped here. Strange devices like metal crossbows that grow hot to the touch and fire solid flames can be found in its depths.",http://artisancrab.com/pics/sj-card-dragonship.jpg,"Remnants, alien technology"
+08,03,,0803,Rocky Hills,,,,,,
+08,04,,0804,Mountain,Dune Lady,,,Stronghold of the Dune Lady. Raids into the dunelands start from here and retreat into the safety of a vehicle depot built into the mountain.,,"Domination, tyranny"
+08,05,,0805,Rocky Hills,,,,,,
+08,06,,0806,Rocky Hills,,,,Orc encampment. Captain of the [[Dune Lady]] is present to negotiate.,,
+08,07,,0807,Rocky Desert,,,,,,
+08,08,,0808,Sandy Desert,,,,Human farmer instructing five orcs.,,
+08,09,,0809,Sand Dunes,B4 The Lost City,,tipsta,"Vast nothingness, sometimes revealed by the shifting dunes is a stone peak. Inside is B4 The Lost City. The Sage in Finger Point knows of this pyramid.",https://en.wikipedia.org/wiki/The_Lost_City_(Dungeons_%26_Dragons),
+08,10,,0810,Sandy Desert,,,,,,
+08,11,,0811,Sandy Desert,,,,,,
+08,12,,0812,Broken Lands,,,The_VolV,A crashed dune boat. No tripulation.,,
+08,13,,0813,Rocky Hills,,,,,,
+08,14,,0814,Rocky Hills,,,,,,
+08,15,,0815,Mountain,,,Teh_Az,"The Garuda live here. On this eyrie atop the highest peak nearest the volcano will be found the Garuda, griffin-like creatures who stand upright and brandish medieval weaponry and barding as well as codes and customs.",,"Old World Anachronisms; Arthurian Hero-Concepts, Heroic Sword & Sorcery tropes"
+08,16,,0816,Mountain,,,Historian,Nestled in a ravine is a meager mountain spring. Bubbling water nourishes some plant life. Mutant catfish lurk in the muddy pond.,,Life
+08,17,,0817,Rocky Hills,,,,"An entourage of d6 Metal Men are here, armed and ready to fight organics. They work for the [[Mind of Machine]].",,
+08,18,,0818,Sandy Desert,Mind of Machine,,tipsta,"Dry well, inside is a hidden vault with unexplained magics. It is under the control of a mind made entirely of machine. The Mind of Machine has identified the inhabitants of pillar in [[0819]] as a threat and is attempting to assemble something to destroy it.",,
+08,19,,0819,Sandy Desert,,,,"Tall pillar with a round windowed bubble on top. Front door is sturdy and locked securely. Covered in traveler graffiti. While nearby some old machines begin to play old-age music, current news, and vague requests to ""call in"".",,"Information, rumours"
+08,20,,0820,Sandy Desert,,,Teh_Az,"The eggs of the [[Tricerions]] are hidden here. There is a 1/6 chance of finding the eggs when actively searched for. If poached, there is a 3/6 chance the Tricerions will trace and hunt the poachers.",,"Precious Treasure, Vulnerable Secrets"
+09,01,,0901,Sandy Desert,,,twocalf,,,
+09,02,,0902,Rocky Hills,,,,,,
+09,03,,0903,Rocky Hills,,,The_VolV,"Operational military base. Friendly soldiers speak of things that do not exist. At night, no soldiers - only undead working for [[Countachs of Lambo]]. The soldiers and undead do not know of each other.",,"Horror, Despair, Mystery"
+09,04,,0904,Mountain,,,,A Small tribe of rat-people live here and are paying tribute to the [[Dune Lady]].,,
+09,05,,0905,Mountain,,,,,,
+09,06,,0906,Rocky Hills,,,,,,
+09,07,,0907,Rocky Hills,,,,"A raiding party from the [[Dune Queen]] stronghold camp here, scouting to raid [[Finger Point]].",,
+09,08,,0908,Rocky Desert,,,,,,
+09,09,,0909,Sandy Desert,,,,,,
+09,10,,0910,Sandy Desert,,,,Soldiers with strange weapons and unknown language organize at day. When the horizon is filled with old era carts and walker suits at dusk a similar force battles them head on. No signs of the armies by dawn.,,Ghosts of the past
+09,11,,0911,Sandy Desert,,,twocalf,Clan of albino pig-people live in the ruins of the tunnels and sewers of a city long swallowed up by the sands. They trade water and old world artifacts for mushrooms and slaves.,,
+09,12,,0912,Broken Lands,,,,A giant giraffe skeleton towers above the rocky hills of the area. Inside it's jaw you will find rare tobacco (price as Cure Wounds potion). Smells vaguely of leather. ,,
+09,13,,0913,Rocky Hills,,,,,,
+09,14,,0914,Lava Fields,,,,,,
+09,15,,0915,Volcano,,,,"Lava slowly spews, creating the Lava Fields in [[0914]] and [[1013]].",,
+09,16,,0916,Mountain,,,,,,
+09,17,,0917,Mountain,,,,,,
+09,18,,0918,Rocky Hills,Stronghold,,The_VolV,"A small Stronghold of people who talk strangely. Atop the stronghold wall they say they have what you need, but they don't want to give it. If asked about it they will insult you.",,
+09,19,,0919,Sandy Desert,,,tipsta,"Metal birds with swirling wings pick over the area hunting for artifacts, returning them to the [[Machine Mind]].",,
+09,20,,0920,Sandy Desert,,,,,,
+10,01,,1001,Sandy Desert,,,twocalf,"A [[Countachs of Lambo]] has been captured by the [[Sons of Belmont]] and tied to a cross - he'll live until noon, at which he turns to ash.  He knows the location of a treasure stash that he will use as a bargaining chip to have the PCs to untie him.",,
+10,02,,1002,Rocky Hills,,,,"Herd of flame-ingos. Not aggressive, but reflexively shoots a burst of flame to cover retreat if spooked.",,
+10,03,,1003,Mountain,,,,"Soldiers of the [[Dune Lady]] operate a camouflaged observation post on a mountaintop, overlooking the desert towards [[Newton]]. They will only attack if discovered, and otherwise send communications of their observations to the [[Dune Lady]].",,Surprise
+10,04,,1004,Mountain,,,,,,
+10,05,,1005,Volcano,Molemen Lair,,Pastaman,"Small bands of nomads come here to gather obsidian for tools, weapons, and jewelry. They rest at a small mud hovel hamlet that is abandoned most of the year. Molemen come out at night to gather the obsidian and other igneous rocks from the volcano.",,
+10,06,,1006,Rocky Hills,Giant Mud Hovels,,The_VolV,Some hill giants make their home here. They are sensitive about the environment.,,
+10,07,,1007,Rocky Hills,,,,,,
+10,08,,1008,Rocky Desert,,,,,,
+10,09,,1009,Sandy Desert,Esoteric Sorority,,Ellardin,An Esoteric Sorority live in the decayed palaces. Only the truly desperate seek their help. Lost treasure hoard both sacred and infernal. The Sisters have a rivalry with the [[Inverted Library Tower]]. Will trade lost lore for [[Laser Books]].,"https://thumbs.dreamstime.com/t/citadel-aleppo-7287502.jpg
+
+http://www.canyoncalling.com/wp-content/uploads/2014/08/colorado-main.jpg","
+Sorcerous Perils
+Hidden Knowledge
+Rivalry"
+10,10,,1010,Broken Lands,,,The_VolV,"Two women discuss whether an illustration of a dress is colored blue or white. If uninterrupted, they will eventually attempt to murder each other.",,
+10,11,,1011,Broken Lands,,,,,,
+10,12,,1012,Rocky Hills,,,,,,
+10,13,,1013,Lava Fields,,,The_VolV,"A small camp of fire porcupines live here, they are dangerous and libertarian. Any kind of interaction is a violation of the NAP.",,
+10,14,,1014,Lava Fields,,,,,,
+10,15,,1015,"Rocky Hills
+",,,,Some Octopeople from [[Octown]] are attempting agriculture here. They're not very good at it.,,
+10,16,,1016,Dormant Volcano,,,The_VolV,The mother of all sand worms lives in this inactive volcano.,,Desert fantasy
+10,17,,1017,Mountain,,,The_VolV,Secret alien lair. Their intentions are not understandable.,,
+10,18,,1018,Rocky Hills,,,,,,
+10,19,,1019,Rocky Hills,,,PastamanXIV,"Mutated Nomads in mud hovels seek out trade. If the PCs do not respond to their esoteric cultural customs, they will turn hostile. They speak of a haunted palace that leads into the underworld. The palace will break the sanity of those who enter.",,"Cultural alienation, oral histories, cosmic horror, physical and mental deformity, Vincent Price."
+10,20,,1020,Rocky Hills,,,,,,
+11,01,,1101,Sandy Desert,,,PastamanXIV,A stranded member of [[The Countach of Lambo]] lurks here at night. He dwells in his fuelless demon-cart during the day. He will offer a reward to any that will retrieve some fuel from [[0901]]. ,,
+11,02,,1102,Rocky Hills,,,The_VolV,"Zombies roam the area, usually at night.",,
+11,03,,1103,Rocky Hills,,,The_VolV,"Goblin spies from the tower of [[Laser Books]], stacked up inside a single long coat so as to appear as a single individual. They speak fluent Common.",,
+11,04,,1104,Rocky Hills,,,,,,
+11,05,,1105,Mountain,,,,An old metal hatch leads down into an ancient facility that has been breached by a jagged spire of obsidian from lava in [[1005]]. Humanoids made of obsidian are developing civilization in the ancient lab site.,,
+11,06,,1106,Mountain,,,,,,
+11,07,,1107,Mountain,Dwarven Vault,,The_VolV,"Some dwarves live in a hidden hole in the ground. After years of social engineering they have come to like the rumbling metal mounts of the previous era, and sometimes leave to show off their skills.",,80's
+11,08,,1108,Broken Lands,,,,,,
+11,09,,1109,Broken Lands,,,,,,
+11,10,,1110,Broken Lands,,,,A passage through the rocky hills lies here. A sonic spider lies in hiding and attacks weak parties by geosonic location. It is driven away by loud music.,,
+11,11,,1111,Broken Lands,,,,,,
+11,12,,1112,Sandy Desert,Ancient Lab,,The_VolV,"This place looks mostly empty, but in the bowels of the earth resides an ancient lab created only to make bioweapons. One has been sleeping for centuries, the Teletransmitted Mutant Neuroactive Tyrannosaurus (or TMNT for short).",https://i.ytimg.com/vi/b2q6ZZUToZc/hqdefault.jpg,Unethical uses science from the past.
+11,13,,1113,Rocky Hills,,,tipsta,"This vast field of lava sometimes cools, especially after a storm. [[Lava-immune Elves]] sometimes race across the solid lava to pick rare berries that don't grow anywhere else.",,
+11,14,,1114,Rocky Hills,Lava-immune Elves,,tipsta,Small stone shack near edge of Lava Fields in 1013. Dozen Lava-immune Elves attempt to grow in population.,,
+11,15,,1115,Sandy Desert,Octown,,KusoDM,Town run and populated by human-octopus hybrids called octomen that have bred in secret and made their way to the mainland. They are bad at agriculture. They come from the [[Abyssia]].,http://tfwiki.net/mediawiki/images2/f/f8/G1Octopunch_toy.jpg,"Secret terror, alien technology, underwater adventure"
+11,16,,1116,Rocky Hills,,,,,,
+11,17,,1117,Mountain,,,Stagehand,Pterosaurs nest among the mountain cliffs collecting gems and bright baubles. 30% of the adults are fitted with a metal collar etched with runes in a long-dead language; deciphering the runes indicates the coordinates of the [[Ancient Lab]].,,Aerial danger
+11,18,,1118,Rocky Hills,,,,,,
+11,19,,1119,"Sandy Desert, Shrubland",,,,,,
+11,20,,1120,Rocky Hills,,,tipsta,An overgrown greenhouse is tucked away in these hills.,,
+12,01,,1201,Sandy Desert,,,,,,
+12,02,,1202,Sandy Desert,Newton,,The_VolV,"Descendants of ancient Magineers and Elves from the old era have a settlement here. Some of their ancient knowledge is intact. They are in constant threat of the Goblins in [[Laser Book]] Tower, who attack them for gold, food, and science (kidnappings).",,Hope
+12,03,,1203,Rocky Hills,,,,Merchant caravans move through here to reach [[Newton]].,,
+12,04,,1204,Rocky Hills,,,PastamanXIV,"Merchant caravans traveling to [[Newton]]. Rumor is travelers fall prey to the undead. In fact, they are haywire automatons that rest in the day to gain power from the sun.",,"Enterprise, commerce, mummies"
+12,05,,1205,Mountain,The Cider Press,,PastamanXIV,Tavern made of the wreckage of a ship that sailed the stars called The Cider Press. Ran by its old captain and his illusory wife. They tell of a shooting star that crashed in [[1305]]. Caravans from [[Newton]] stop here on their way to [[Hidden Village]].,,
+12,06,,1206,Mountain,,,,"On some nights, sharp green rays fire into the sky for short bursts between these mountains. An automated system for a mostly underground communications post scans for satellites. Satellite maps and other information can be found here.",,Ad Astra
+12,07,,1207,Mountain,,,,Great tentacled eagles inhabit a cave system.,,
+12,08,,1208,Broken Lands,,,agent blue,Under a fungus-shaped rock is the lair of a creature that seems to be made entirely of human hands. Cut off one of its hands and two will grow in its place. It will never take hostile action. Probably a good source of emergency rations.,,Science
+12,09,,1209,Sandy Desert,,,The_VolV,"A hidden vault, it has hidden collectibles, like 100 bottle caps, different types of bottles, some posters, some comic books.",,Blast from the past
+12,10,,1210,Sandy Desert,Yormite Teleporter North,,EsotericOdyssey,"At night, a [[Yormite]] spire rises from the sand. When a Yormite Difference-Gauntlet touches the spire, they (and anything touching them) are teleported to the identical [[Yormite Teleporter South]].",,
+12,11,,1211,Sandy Desert,,,,,,
+12,12,,1212,Rocky Hills,Yormite Camp,,PastamanXIV,At any time d4 [[Yormite]] slavers and 2d6 Yormite Automata may be observed here. There will be numerous cages and captives here as they prepare to travel back home.,,
+12,13,,1213,Rocky Hills,,,,,,
+12,14,,1214,Sandy Desert,,,tipsta,Silane Serpent territory (as bulette made of glass). Known problem for the folks of [[Octown]].,,
+12,15,,1215,Sandy Desert,,,,,,
+12,16,,1216,Rocky Hills,,,,A drone from the [[Mind of Machine]] can be seen hovering far in the sky. After d6 hours it returns home.,,
+12,17,,1217,Rocky Hills,,,PastamanXIV,Merchant caravans come through here to (attempt to) trade with the talking animals of [[1218]] and [[1219]].,,
+12,18,,1218,"Sandy Desert, Shrubland",,,The_VolV,Talking reptiles and mammals are here. Most of them are territorial.,,
+12,19,,1219,"Sandy Desert, Shrubland",,,The_VolV,"Talking snakes inhabit this area. They have guns, and have ways to shoot them.",,
+12,20,,1220,Rocky Hills,,,,,,
+13,01,,1301,Sandy Desert,,,,,,
+13,02,,1302,Rocky Hills,,,Ellardin,Blue flowers with star shaped tops grow here. They turn black at night.,,
+13,03,,1303,Rocky Hills,,,Stagehand + DishwasherPossum,"Two vampire [[Countachs of Lambo]] (holding parasols during the day) dispute the particulars of a crash. Their smoking, burnt-out demon stagecoaches are nearby, and they will rope the PCs into their arguments.",,Mad max raiders meet extremely decadent renaissance nobility
+13,04,,1304,Rocky Hills,,,,,,
+13,05,,1305,Mountain,S3: Expedition to the Barrier Peaks,,Stagehand,"Jutting out just past a mountain summit is a dull, dust-coloured slab. Climbing up the mountain will reveal a vast structure of twisted and bent metal, which contains S3: Expedition to the Barrier Peaks.",https://en.wikipedia.org/wiki/Expedition_to_the_Barrier_Peaks,Close Encounters of the Third Kind
+13,06,,1306,Sandy Desert,Hidden Village,,,"The people of this ""hidden"" village dress in extremely bright colours and are terrible at hiding. Rumours say they have powers beyond comprehension invoked by strange hand symbols (this is a lie).",,"Different cultures, Annoying"
+13,07,,1307,Sandy Desert,Crashed Flying Saucer,,PastamanXIV,"A crashed ship that once sailed the stars, in the shape of a saucer is hidden beneath the sands. Grey aliens with advanced technology lie dead inside as their automatons guard the wreckage.",,
+13,08,,1308,Mountain,,,,Hidden overgrown trail leading through a mountain pass. Guarded by the inhabitants of [[Hidden Village]].,,
+13,09,,1309,Rocky Hills,Neanderthal Lair,,PastamanXIV,"Neanderthals live here and have made an agreement with the [[Yormite]], they give captives in exchange for alien goods. 2d4 Yormites and 4d4 Yormite Automatons may be observed here at any time.",,
+13,10,,1310,Rocky Hills,,,EsotericOdyssey,A [[Yormite]] and d6 Yormite Automatons lead a caravan of alien technology to the [[Neanderthal Lair]]. The Yormites will threaten PCs who approach too closely with a strange weapon., ,
+13,11,,1311,Sandy Desert,,,EsotericOdyssey,A Yormite and d6 Yormite Automatons lead a caravan of slaves back to the [[Yormite]] city. They will make threatening gestures with a strange weapon at PCs who approach too closely.,,
+13,12,,1312,"Rocky Hills, Coast",Floating Village,,,Scavengers prepare to row out to loot the [[Old Era Seacraft]]. A small harbour has developed by the coast where scavengers from afar have anchored their houseboat. Strangers are welcome to trade on the floating village.,,
+13,13,,1313,"Sandy Desert, Coast",,,,"A confused person is standing near a glassed crater in strange armor, with a glass helm that is shaped like a bubble. Carrying a wand of disintegration with a trigger system similar to a crossbow. They speak a strange, accented, guttural language.  ",,
+13,14,,1314,"Sandy Desert, Coast",,,,,,
+13,15,,1315,"Sandy Desert, Coast",,,,2d6 messages in a bottles appear on this stretch of coast.,,
+13,16,,1316,Sandy Desert,,,,,,
+13,17,,1317,Rocky Hills,,,,,,
+13,18,,1318,"Sandy Desert, Shrubland",,,tipsta,The coyotes in this area have the ability to talk.,,
+13,19,,1319,"Sandy Desert, Oasis",Masketta Men Base,,Rosen,"An outpost owned and controlled by [[Masketta]] Man soldiers. Plethora of traders, craftsmen, etc, who pay a fee to the Masketta Men in exchange to stay near the oasis. Some are working off debts that increase at a rate unrepayable.",,"Slavery, Conflict, Civilisation"
+13,20,,1320,Sandy Desert,,,,,,
+14,01,,1401,Rocky Hills,,,,,,
+14,02,,1402,Rocky Hills,,,,,,
+14,03,,1403,Mountain,,,,Tribal elves with three working high tech crossbows of the old era and a sturdy metal cart of the old era are hunting a stegosaurus. They intend to sell the sell their catch in [[Newton]] or the folk of [[Laser Book]] tower and will trade meat for any additional transportation.,,
+14,04,,1404,Mountain,,,,Vibrations as a mining automaton. Drills out tunnels below. Chance to undermine area in travellers' path.,,
+14,05,,1405,Sandy Desert,,,,,,
+14,06,,1406,"Sandy Desert, Lake",,,tipsta,This lake always seems to have large schools of edible fish.,,
+14,07,,1407,Sandy Desert,,,tipsta,Cave formation called The Hourglass,https://i.imgur.com/UNY8vjX.png,
+14,08,,1408,Mountain,,,,,,
+14,09,,1409,Rocky Hills,,,,,,
+14,10,,1410,Rocky Hills,Yormite,,EsotericOdyssey,"City with spires of metal and domes of glass grown organically into alien shapes, signifying the domain of The Yormites, enigmatic, hostile robed beings. Captives/purchased slaves go into the domes, but only more robed Yormites are seen exiting.",,Alien Horror
+14,11,,1411,"Rocky Hills, Coast",,,,,,
+14,12,,1412,Sea,Old Era Seacraft,,,Wrecked metallic hulk of an old era seacraft. Scavengers from the [[Floating Camp]] has started to exploit the surface.,,
+14,13,,1413,Sea,,,,,,
+14,14,,1414,Sea,,,,,,
+14,15,,1415,"Sandy Desert, Coast",,,The_Volv,An old unmanned resort in disarray.,,
+14,16,,1416,"Rocky Hills, Coast",,,twocalf,Massive nuclear sub beached on the sands here. The inhabitants believe (due to damaged controls) that everything outside the sub is underwater and cannot be told otherwise.  Offer old era tech for fetch quests.,,
+14,17,,1417,Rocky Hills,,,,,,
+14,18,,1418,Sandy Desert,,,,Level 3 dwarf on a rumbling old era mount of metal spins circles here. The large dust cloud is visible at a long distance.,,
+14,19,,1419,Sandy Desert,,,,,,
+14,20,,1420,Sandy Desert,,,NovanIV,This area and [[0217]] are the exact same place. There is a 50% chance that anyone traveling through these hexes come out the equivalent boarder on the other part of the map.,,Weird 
+15,01,,1501,Rocky Hills,,,,"Entombed under earth and sand is the inactive Knight Eternal. It hates and fears the [[Mind of Machine]]. Travellers receive telepathic impulses promising riches and glory for unearthing it, and the coordinates to do so.",,
+15,02,,1502,Rocky Hills,,,,,,
+15,03,,1503,Rocky Hills,,,,,,
+15,04,,1504,Volcano,Pit of Harkann,,anon who is gonzo,"Atop the Pit of Harkann lies a jagged, wheeled metal structure. Lightning sparks along vast cables leading from the apparatus into the [[Inverted Library Tower]]. A rope bridge offers entry into the structure, guarded by 6 Copper Warriors.",,
+15,05,,1505,Mountain,,,,,,
+15,06,,1506,Sandy Desert,,,,"Dungeon location. This place is known to the people of [[Hidden Village]], but is a great taboo.",,
+15,07,,1507,Mountain,,,PastamanXIV,"Harpies will attack people who travel through this and the surrounding area, especially at [[1606]].",,
+15,08,,1508,Mountain,,,twocalf,Eight legged spider goats roam this rocky mountain. Their horns are believed to be a powerful aphrodisiac (100gp per horn). ,,
+15,09,,1509,Rocky Hills,,,,,,
+15,10,,1510,"Sandy Desert, Coast",,,,A whale-like amphibian lairs in the desert. It hunts the sea at night and returns in the early hours.,,
+15,11,,1511,"Rocky Hills, Coast",,,,,,
+15,12,,1512,Sea,,,,"A giant gas pocket empties, bursting up in a splash.",,
+15,13,,1513,Sea,,,twocalf,A mermaid skeleton lies in a sea cave surrounded by junk.  2d100gp worth of silverware.,,Part of Your World
+15,14,,1514,"Rocky Hills, Coast",,,The_VolV,"A automaton lives in a lighthouse, and keeps it working. That is its purpose. It is depressed.",,Melancholy
+15,15,,1515,Sea,,,,"Crabs parroting travellers back swim below the surface, trying to lure people to dive and investigate.",,Under the Sea
+15,16,,1516,Sea,,,,,,
+15,17,,1517,"Rocky Hills, Coast",,,,,,
+15,18,,1518,Rocky Desert,,,,Many burrows of laser scorpions litter this area.,,
+15,19,,1519,Rocky Desert,,,,,,
+15,20,,1520,Sandy Desert,,,,,,
+16,01,,1601,Rocky Hills,,,,,,
+16,02,,1602,Rocky Hills,Laser Books,,anon who is gonzo,"A monolithic tower holding rare arcane tools of mass destruction: Laser Books. The goblin tribe Krakka Hadin-Akul-Jakar-Haran-el-Derif, ran by the Lord of the Tower, constantly raid the lands nearby. They are preparing an assault on the settlement in 1202 using arcane technology.",,
+16,03,,1603,Rocky Hills,,,,,,
+16,04,,1604,Mountain,Small Foot,,The_VolV,"A small village of halflings live here, they are a bit more civilized than their [[Cannibal Halflings]] cousins. They sometimes steal orphans thinking they are halflings. They pray to a giant sentient rock, but they don't let the unworthy speak with it.",,Post apoc legend of Zelda
+16,05,,1605,Mountain,,,,,,
+16,06,,1606,Mountain,,,Historian,"A narrow mountain pass here connects [[1506]] and [[1707]]. A statue at the midpoint that was once roughly 15' tall has partially collapsed. The damaged base reads: ""Let no mo-nt-in se--- my p--pl-""",,Togetherness
+16,07,,1607,Rocky Hills,,,,,,
+16,08,,1608,Rocky Hills,,,,,,
+16,09,,1609,Sandy Desert,,,Ellardin,A large black monolith that appears to be made of solidified ice that never melts due to the sun's heat has an ever-shifting shadow moving around it that prevents the heat from touching any and all who shelter here.,,
+16,10,,1610,"Rocky Hills, Coast",,,,,,
+16,11,,1611,Sea,Offshore Rig,,PastamanXIV,An offshore deep sea mining facility. Occupied by the [[Yormites]. d3 Yormites and 3d8 Automatons will be present at any time.,,
+16,12,,1612,Sea,,,,,,
+16,13,,1613,"Rocky Hills, Coast",The Prophet,,,"Tomb of The Prophet. Many sites in the Scorched coast are dedicated to it. When they are visited they often reveal details about the visitors themselves, often some sort of secret.",,
+16,14,,1614,"Rocky Hills, Coast",,,,"Bushes between rocks whisper secrets to travellers that sleep here, but also store their secrets to whisper to others.",,
+16,15,,1615,Sea,,,,,,
+16,16,,1616,Sea,,,,,,
+16,17,,1617,"Rocky Hills, Coast",,,,Supercooled oceanic turtles lay their eggs here. The eggs are buried but can be sensed as cold spots on the beach above. An egg can be used as a cold damage explosive or to raise a frost turtle.,,
+16,18,,1618,Rocky Desert,,,,,,
+16,19,,1619,"Rocky Desert, Highway",,,,A long disabled yellow metal carriage of the old era with 23 level 0 passengers and guards and one low-level ranger/driver shooting back at the besieging giant ants.,,
+16,20,,1620,Sandy Desert,,,,,,
+17,01,,1701,"Rocky Hills, Coast",Skullton,,PastamanXIV,"A town of skeletons, created by the Lord of [[Laser Book]] tower, harvests agave plants and supplies the Lord with liquor. They rarely have to work due to the nature of their crop and their lack of need for food or drink.",,
+17,02,,1702,"Rocky Hills, Coast",Lobster-people Festival Grounds,,tipsta,Every full moon the lobster-people (as fighter 4 w/ extra grab attack) hold their wrestling festival. Losers are purged - boiled alive.,https://i.imgur.com/upD5N1J.jpg,
+17,03,,1703,Rocky Hills,Neanderthal Huts,,,[[Laser Books]] on the prowl. Neanderthals believe them to be angry spirits so they flee from their attacks and try to appease what to them.,,
+17,04,,1704,Rocky Hills,,,,"Dwarfs race each other atop rumbling metal mounts, taking jumps over rock formations. Challenges travellers to contests if they can place a bet.",,
+17,05,,1705,Rocky Hills,,,,,,
+17,06,,1706,Rocky Hills,,,,"Mud hut with a painted sign. ""All beware, the PAINOLIZER lives here!"" Home of a medium-level magic elf.",,
+17,07,,1707,Rocky Hills,,,,Aggressive herbivores chase fleeing plant-men.,,
+17,08,,1708,"Sandy Desert, Coast",,,,"Sunbathing dwarfs and goblins with rumbling metal mounts on leave from the tower of [[Laser Books]]. Groups mingle, only small skirmishes over towels.",,
+17,09,,1709,"Sandy Desert, Coast",,,,,,
+17,10,,1710,"Sandy Desert, Coast",,,Pastaman,"Old lighthouse towards the sea. Operated by a brain in a jar that seeks a mechanical body. The brain will also give rewards for information about the current day, since it has been confined for so long, especially the creatures it sees in [[1908]].",,
+17,11,,1711,Sea,,,,,,
+17,12,,1712,Sea,,,NovanIV ,"An old hermit lives alone on an a ship that is almost as old as him. He will happily share his catch of the day in exchange for stories of adventure. His fishing pole is well cared for and of high quality, he has nothing else of value.",,peace and quiet 
+17,13,,1713,"Rocky Hills, Coast",,,PastamanXIV,A rare breed of bird with exceptionally bright and colorful feathers roosts here during the winter months. The feathers are worth a great deal to the right buyer. The birds fight as HD 3 creatures with AC as Leather and Shield.,,
+17,14,,1714,Mountain,,,PastamanXIV,"A creature with, a thick, slimy shell, and two eyes. [MV 0', AC Plate+Shield, HD 99, -10 Penalty on attacks against it.] It makes sounds of utter pain and misery that are heard across the whole island, but it has no mouth. Grants a wish if killed.",,"I Have No Mouth, And I Must Scream."
+17,15,,1715,"Rocky Hills, Coast",,,,The wise Metaslug meditates on one rock. Travellers can ask it one question before asked to leave it in peace. It will fend off aggressors with powerful but non-violent psionic abilities.,,
+17,16,,1716,Sea,,,twocalf,Kelp forest. Hidden within the forest is a very rare kind of starfish. Eating a soup made with one of its arms will restore any lost limb. Koa-Toa hold this starfish as being extremely sacred.,,
+17,17,,1717,Sea,,,,,,
+17,18,,1718,"Sandy Desert, Coast",,,,"Mutant halflings pull a cart along the shore, gathering up and trash from the sea.",,
+17,19,,1719,Sandy Desert,,,Ellardin,This is the site of a large garbage dump.,,
+17,20,,1720,Rocky Desert,,,,,,
+18,01,,1801,Sea,,,,Raft stuck in seaweed. Abandoned. One locked coffin bolted to the raft containing a potion of radiation resistance.,,
+18,02,,1802,"Rocky Hills, Coast",,,,"Shrine of the Prophet. Piled to face the sea are an array of rock formation. When viewed from a point out past the shore, the optical illusion of the mocking face of a false, powerful ally of the PCs stares back.",,
+18,03,,1803,"Rocky Hills, Coast",,,Ellardin,A line of standing stones that have strange markings placed upon them. No one in The Scorched Coast has knowledge of the symbols.,,
+18,04,,1804,"Sandy Desert, Coast",Elven Fake Town,,,"Elves enacting fake town life as travellers appear, among clearly fake house fronts sets. Has no idea what elf culture is like, and will agree to anything not self-destructive that travellers say.",,
+18,05,,1805,Sandy Desert,,,,,,
+18,06,,1806,Sandy Desert,Yanti,,tipsta,"This once-small camp site has accidentally become permanent. Everyone has their own reason for staying, but none of them are happy about it. ",,
+18,07,,1807,"Sandy Desert, Coast",,,,,,
+18,08,,1808,Sea,,,,Galley of the [[Masketta]] Men. Collects tribute from coastal settlements.,,
+18,09,,1809,Sea,,,twocalf,"3d6 psi-porpoises, they plan to create a bubble of water and move off world.",,
+18,10,,1810,Sea,,,,,,
+18,11,,1811,Sea,,,twocalf,A mimic pretending to be a rowboat with a sailor and chest of treasure.,,
+18,12,,1812,Sea,,,,"The waters here are extremely still and free from threats, but are deep and pitch black. Staying in this area for eight hours without leaving will progressively give PCs a severe headache, increasing in intensity the longer the PCs stay.",,"Safe, Eldritch"
+18,13,,1813,"Rocky Hills, Coast",,,,"Concrete emplacements for old era cannons rest here, pointed out towards the sea. The naval guns are rusted metal junk but a hive of giant scorpions live in the unlooted supply room.",,
+18,14,,1814,"Rocky Hills, Coast",,,agent blue,"Hulking structures made up of loops and circuits of painted steel tower over natural rock formations. Between them are ruins of buildings in a vast array of architectural styles. Some nights, strange music seems to spring from the ground itself.",http://www.chipandco.com/wp-content/uploads/2013/08/Mickey_Logo-1.png,Abandoned but not forgotten
+18,15,,1815,Sea,,,agent blue,"The sunken portions of structures from [[1814]], stripped and scavenged for parts by the octomen of [[Abyssia]]. The home of a lone, paranoid, water-breathing alien with a strange gun.",,"Isolation, alien technology"
+18,16,,1816,Sea,Abyssia,,Della,"An night, the strait glows green and sailors above are dragged into the depths. The oceanic bottom holds the underwater fortress city Abyssia, home of the octomen. They worship an eldritch god and protect their ancient treasure, The Pearl of Eternity, with advanced weapons.",,Cthulhu Lovecraft
+18,17,,1817,"Sandy Desert, Coast",,,The_VolV,A small band of bat-people hide and prepare a revolution against the [[Masketta]] Man.,,Revolution
+18,18,,1818,Sandy Desert,Masketta,,The_VolV,"The large city of Kallitin is the operated by the Masketta Man, a warrior with a thirst for conquest. He is said to follow a higher order but few believe that. People only started to care when he put on the mask.",,Conflict
+18,19,,1819,"Sandy Desert, Coast",,,Teh_Az,"A beached sea turtle beach so large is breaks the horizon at a distance, mounted with six naval cannons. I has a symbiotic relationship with a town inside. Town establishing trade link with settlement in [[Masketta]] Man's city.",,"Trade, Nomadic City"
+18,20,,1820,"Sandy Desert, Coast",,,Historian,"An iron tube rises from the sand, four feet in diameter. Rungs serve as a ladder, and the top is sealed with a sturdy hatch and a malfunctioning biometric scanner. Inside is an underground facility full of marine biology research materials.",,Ancient Science
+19,01,,1901,Sea,,,,,,
+19,02,,1902,"Sandy Desert, Coast",,,,Patrol of bears from the [[Iceberg Ship]]. Angry elves are throwing fruit at them and try to goad them inland.,,
+19,03,,1903,Sea,Floating Camp,,Della,"A black oil slick locked in place by dominant currents. A metal platform ruined by rust sits in the middle of the oil, surrounded by rickety boats tied together in a semi-permanent community of 50ish oil gatherers. ",,Precarious life
+19,04,,1904,"Sandy Desert, Coast",,,,,,
+19,05,,1905,"Sandy Desert, Coast",Poorly Disguised Gnomes,,,Gnomes poorly disguised as dwarfs beg travellers for alcohol.,,Thieving Goddamn Gnomes
+19,06,,1906,"Sandy Desert, Coast",,,Dish,"A fisherdwarf's shack. The fisherdwarf warns of thieving [[Poorly Disguised Gnomes]], gruffly.",,Thieving Goddamn Gnomes
+19,07,,1907,"Sandy Desert, Coast",,,,"6 dwarfs blast past the coast in a racing boat, dragging behind a skipping bathtub with a screaming goblin. The dwarfs take badly aimed potshots at travellers as they make the pass.",,
+19,08,,1908,"Sandy Desert, Coast",,,The_VolV,"Long forgotten and ransacked building. Most of the times it's empty, but at night some people have said to see humanoids in strange suits coming out of the water. This is the strange bulky creatures from the underwater ruins in the [[Whirlpool]].",,
+19,09,,1909,Sea,,,,,,
+19,10,,1910,"Sea, Whirlpool",Whirlpool,,NovanIV ,"An ever spinning whirlpool, at the bottom is portal slowly draining the sea in an ancient high tech ruin that is mostly flooded. Strange bulky creatures are seen coming and going from the intact areas.",,Gonzo undersea adventures
+19,11,,1911,Sea,,,,,,
+19,12,,1912,Sea,,,twocalf,A small glass dome contains a single ever productive acorn tree and a family of 6 sentient squirrels on the seafloor. They all have squirrel sized diving suits.  The eldest son longs to see the world and find a wife.,,
+19,13,,1913,Coast/Sea,,,The_VolV,"In this lonely part of the island random gravity wells occur, making a character accidently throw his things to the ground when he least expects it.",,
+19,14,,1914,Sea,,,agent blue,"The face of a gargantuan, metallic beast juts out of the water. Seemingly at random, it's mouth screeches with the sound of rusted metal as strange music plays from deep within its gullet. Some say untold treasures can be found within.",http://conceptartworld.com/wp-content/uploads/2013/06/Epic_Mickey_2_Concept_Art_SM17.jpg,Unknowable intentions
+19,15,,1915,Sea,,,,Reef. One halfling and one kobold sits on either end. They involve travellers as judges of their sea shanties. Both offer bribes.,,
+19,16,,1916,Sea,,,twocalf,"Large pleasure barge guarded by barnacle-encrusted clockwork construct demanding a ticket. Failure to comply results in more clockwork guards that will remove PCs by force. The ship is intact, filled with skeletons in fancy dress.",,
+19,17,,1917,Sea,,,twocalf,"A golden magical trident lies embedded in a Dunkalasaurus skeleton. Pulling it out will resurrect the immortal creature in d4 days, who will then chase hunt the trident-holder until sealed again via impalement with the trident.",,
+19,18,,1918,"Sandy Desert, Coast",,,,,,
+19,19,,1919,"Sandy Desert, Coast",,,,"False signal fires lit by a band of ogres. Has no idea if ships pass or not but will wait patiently in hiding (only from seaside, visible from land).",,
+19,20,,1920,"Sandy Desert, Coast",,,,,,
+20,01,,2001,Sea,Iceberg Ship,,twocalf,"Enchanted iceberg ship has a crew of polar bear-folk whalers/merchants worried about a missing shore party. Their hold is full of pelts, meat, whale ivory, and small chunks of never-melt ice.",,
+20,02,,2002,Sea,,,Ellardin,"Large rocks breach the surface of the water here, a danger to all ships.",,Dangers of ignorance
+20,03,,2003,Sea,,,,,,
+20,04,,2004,Sea,,,twocalf,"Shantytown made from dozens of ruined small boats. Full of grog and pirate stereotypes, but no women. Constantly under raid from Sharkmen, Lobster-people, Psi-Porpoises, etc.",,
+20,05,,2005,Sea,,,,,,
+20,06,,2006,Sea,,,Ellardin,A sandbar is spouting out from the Ocean's surface. It appears that a large orange and white speckled mushroom is bobbing in the water.,,
+20,07,,2007,Sea,,,,Large jet of water sprays up once.,,
+20,08,,2008,Sea,,,,,,
+20,09,,2009,Sea,,,,"A titanic creature's shadow is sighted under the sea for a moment, then disappears.",,
+20,10,,2010,Sea,,,,,,
+20,11,,2011,Sea,,,,Four goblins in a powered boat tow a derelict barn on a raft.,,
+20,12,,2012,Sea,,,,,,
+20,13,,2013,Sea,,,twocalf,"Locked chest in flotsam. Contains seemingly endless stacks of bizarre non-human on humanoid pornography, valuable only to lonely sailors. Staring or sorting the pictures for too long risks madness. 1/6 chance a picture is of a PC's mother.",,
+20,14,,2014,Sea,,,,,,
+20,15,,2015,Sea,,,,Top of a small tube sticks over the surface. Smooth jazz can be heard faintly through it.,,
+20,16,,2016,Sea,,,,Island of floating junk. Group of imps unsuccessfully trying to steer it.,,
+20,17,,2017,Sea,The Salty Spitoon,,Pastaman,"An old offshore mining platform, now inoperable. Functions as a trading post and inn, called The Salty Spitoon, for coastal merchants. All people and goods passing through are subject to taxation from the forces of [[Masketta]] Man.",,Piracy and all sorts of shady dealings.
+20,18,,2018,Sea,,,,,,
+20,19,,2019,Sea,,,,Shipwrecked hobgoblin floating in a barrel.,,
+20,20,,2020,Sea,,,NovanIV,"Below the surface of the water, there is a chest containing 6 bottles. d6 of them are intact and contain a magic potion that permanently corrects any eyesight problems the drinker possesses. The remaining bottles have broken.",,A pun on the hex number
+,,,,,,,Map coverage:,60.00%,,
