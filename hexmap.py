@@ -13,12 +13,19 @@ class Hex(object):
     """
     Data we store about a hex.
     """
+
     def __init__(self, location, settlement, author, description, url, themes):
-        self.location = location
-        self.settlement = settlement.upper().strip()
-        self.themes = [t.upper().strip() for t in themes.split(',')]
+        self.location = location  # e.g. 0121
         self.author = author
-        self.description = description or '-'
+        self.description = description or "-"
+
+        # The settlement / feature inside this hex. TODO: should be a list
+        self.settlement = settlement.upper().strip()
+
+        # A list of optional themes that describe this hex.
+        self.themes = [t.upper().strip() for t in themes.split(",")]
+
+        # A link to social media or blog post about this hex.
         self.url = url
 
 
@@ -44,25 +51,30 @@ class HexMap(object):
                 # skip empty / junky hexes
                 continue
             if h.settlement:
-                self.settlements[h.settlement] = h.location
+                # take each comma separated list of settlements and add them to
+                # our settlement lookup.
+                for settlement in h.settlement.split(","):
+                    self.settlements[settlement.strip()] = h.location
             for t in h.themes:
-                    self.themes[t].append(h.location)
+                self.themes[t].append(h.location)
             self.hexes[h.location].append(h)
 
         # Yank out all the authors
-        self.authors = [d.author
-                        for l, details in self.hexes.items() for d in details
-                        if d.author]
+        self.authors = [
+            d.author for l, details in self.hexes.items() for d in details if d.author
+        ]
         self.author_histogram = collections.Counter(self.authors)
 
         # Yank out all references
         self.references = collections.defaultdict(set)
         for l, details in self.hexes.items():
             for d in details:
+                # Look for [[XXYY]] style references to specific hexes.
                 for m in re.finditer(r"\[\[(\d\d\d\d)\]\]", d.description):
                     if l != m.group(1):
                         self.references[m.group(1)].add(l)
-                for m in re.finditer(r"\[\[(.*?)\]\]", d.description):
+                # Look for [[SETTLEMENT]], [[PERSON's]]
+                for m in re.finditer(r"\[\[([\w]+?)(?:'s|S)?\]\]", d.description):
                     settlement = m.group(1).upper().strip()
                     if not settlement.isdigit() and settlement in self.settlements:
                         location = self.settlements[settlement]
@@ -76,4 +88,3 @@ class HexMap(object):
     @property
     def themes_histogram(self):
         return make_histogram(self.themes)
-
