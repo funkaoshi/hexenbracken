@@ -25,8 +25,8 @@ elif args.fmt == "text":
 
 # Read CSV dump of Google Docs hex map descriptions and create hexmap of
 # the data.
-with open(args.CSV) as csvfile:
-    hexmap = hm.HexMap(csv.reader(csvfile))
+with open(args.CSV, encoding="utf-8") as csvfile:
+    hexmap = hm.HexMap(csv.reader(csvfile, dialect=csv.excel))
 
 
 if args.fmt == "stats":
