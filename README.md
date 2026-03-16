@@ -1,13 +1,35 @@
 The Hexenbracken
 ============
 
+NOTE 5/20/2022:
+First forked this from Funkaoshi way before I actually knew how to code and dealing with some legacy issues. Probably I'd need to start over to make whatever changes I'd want to make correctly, although it looks like the issues I was attempting to address have been addressed anyway.
+
+NOTE 10/5/2018:
+This version has been modified by Max Cantor and has been adapted for python3.
+hex.py and hexmaps.py have been altered, and utfcsv.py is now obsolete. 
+Additionally, there were some mistakes or omissions in the original instructions.
+Check out my blog!: https://weirdwonderfulworlds.blogspot.com/
+
 This python script will take a set of hex descriptions from a Google Doc and
 turn them into a simple web site. Several example websites exist: [The
 Hexenbracken][1] and [The Kraal][2], [The Colossal Wastes of Zhaar][3],
 [Synthexia][4]. The source files that generate them are in this repository,
 under the `hexmaps` folder.
 
-Usage: `python hexmaps.py <input csv file> > <output html file>`
+Usage:
+1. You need to create a jinja template. As long as you stick to the proper .csv
+   format, you should be able to just copy the base.html template from the templates
+   folder into a new template, the same name as the .csv file (and eventually the
+   html page itself):
+   
+   cp templates/base.html templates/[NAME].html
+
+2. Then you can run the following through in unix bash (I used git bash):
+
+   python -Xutf8 hex.py hexmaps/[NAME].csv title > [NAME].html
+   
+   The -Xutf8 has to do with the fact that I used Windows, if you use linux or 
+   probably also mac I don't think that part is necessary. 
 
 You can use the flag `-f text` to tell the generator to use a text template,
 rather than an HTML one. The script currently assumes the HTML template used to
